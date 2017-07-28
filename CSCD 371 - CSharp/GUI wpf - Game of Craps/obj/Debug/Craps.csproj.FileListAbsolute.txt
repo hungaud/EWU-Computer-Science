@@ -1,0 +1,48 @@
+D:\CSCD371\Craps\bin\Debug\Craps.exe.config
+D:\CSCD371\Craps\bin\Debug\Craps.exe
+D:\CSCD371\Craps\bin\Debug\Craps.pdb
+D:\CSCD371\Craps\obj\Debug\MainWindow.g.cs
+D:\CSCD371\Craps\obj\Debug\GambleWindow.g.cs
+D:\CSCD371\Craps\obj\Debug\App.g.cs
+D:\CSCD371\Craps\obj\Debug\Craps_MarkupCompile.cache
+D:\CSCD371\Craps\obj\Debug\Craps_MarkupCompile.lref
+D:\CSCD371\Craps\obj\Debug\MainWindow.baml
+D:\CSCD371\Craps\obj\Debug\GambleWindow.baml
+D:\CSCD371\Craps\obj\Debug\Craps.g.resources
+D:\CSCD371\Craps\obj\Debug\Craps.Properties.Resources.resources
+D:\CSCD371\Craps\obj\Debug\Craps.csproj.GenerateResource.Cache
+D:\CSCD371\Craps\obj\Debug\Craps.exe
+D:\CSCD371\Craps\obj\Debug\Craps.pdb
+D:\CSCD371\Craps\obj\Debug\Craps.csprojResolveAssemblyReference.cache
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\bin\Debug\Craps.exe.config
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\bin\Debug\Craps.exe
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\bin\Debug\Craps.pdb
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\Craps.csprojResolveAssemblyReference.cache
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\MainWindow.g.cs
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\GambleWindow.g.cs
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\App.g.cs
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\Craps_MarkupCompile.cache
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\Craps_MarkupCompile.lref
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\MainWindow.baml
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\GambleWindow.baml
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\Craps.g.resources
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\Craps.Properties.Resources.resources
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\Craps.csproj.GenerateResource.Cache
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\Craps.exe
+C:\Users\Hung Auduong\Desktop\cscd371\Craps\obj\Debug\Craps.pdb
+C:\Users\Hung Auduong\Documents\cscd371\Craps\bin\Debug\Craps.exe.config
+C:\Users\Hung Auduong\Documents\cscd371\Craps\bin\Debug\Craps.exe
+C:\Users\Hung Auduong\Documents\cscd371\Craps\bin\Debug\Craps.pdb
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\Craps.csprojResolveAssemblyReference.cache
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\MainWindow.g.cs
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\GambleWindow.g.cs
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\App.g.cs
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\Craps_MarkupCompile.cache
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\Craps_MarkupCompile.lref
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\MainWindow.baml
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\GambleWindow.baml
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\Craps.g.resources
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\Craps.Properties.Resources.resources
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\Craps.csproj.GenerateResource.Cache
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\Craps.exe
+C:\Users\Hung Auduong\Documents\cscd371\Craps\obj\Debug\Craps.pdb

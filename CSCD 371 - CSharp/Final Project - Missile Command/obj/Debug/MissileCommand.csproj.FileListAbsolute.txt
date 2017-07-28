@@ -1,0 +1,27 @@
+D:\CSCD371\MissileCommand\bin\Debug\MissileCommand.exe.config
+D:\CSCD371\MissileCommand\bin\Debug\MissileCommand.exe
+D:\CSCD371\MissileCommand\bin\Debug\MissileCommand.pdb
+D:\CSCD371\MissileCommand\obj\Debug\MissileCommand.csprojResolveAssemblyReference.cache
+D:\CSCD371\MissileCommand\obj\Debug\MissileCommand.Properties.Resources.resources
+D:\CSCD371\MissileCommand\obj\Debug\MissileCommand.csproj.GenerateResource.Cache
+D:\CSCD371\MissileCommand\obj\Debug\MissileCommand.exe
+D:\CSCD371\MissileCommand\obj\Debug\MissileCommand.pdb
+D:\CSCD371\MissileCommand\obj\Debug\MissileCommand.MissileCommand.resources
+C:\Users\Hung Auduong\Desktop\cscd371\MissileCommand\bin\Debug\MissileCommand.exe.config
+C:\Users\Hung Auduong\Desktop\cscd371\MissileCommand\bin\Debug\MissileCommand.exe
+C:\Users\Hung Auduong\Desktop\cscd371\MissileCommand\bin\Debug\MissileCommand.pdb
+C:\Users\Hung Auduong\Desktop\cscd371\MissileCommand\obj\Debug\MissileCommand.csprojResolveAssemblyReference.cache
+C:\Users\Hung Auduong\Desktop\cscd371\MissileCommand\obj\Debug\MissileCommand.MissileCommand.resources
+C:\Users\Hung Auduong\Desktop\cscd371\MissileCommand\obj\Debug\MissileCommand.Properties.Resources.resources
+C:\Users\Hung Auduong\Desktop\cscd371\MissileCommand\obj\Debug\MissileCommand.csproj.GenerateResource.Cache
+C:\Users\Hung Auduong\Desktop\cscd371\MissileCommand\obj\Debug\MissileCommand.exe
+C:\Users\Hung Auduong\Desktop\cscd371\MissileCommand\obj\Debug\MissileCommand.pdb
+C:\Users\Hung Auduong\Documents\cscd371\MissileCommand\bin\Debug\MissileCommand.exe.config
+C:\Users\Hung Auduong\Documents\cscd371\MissileCommand\bin\Debug\MissileCommand.exe
+C:\Users\Hung Auduong\Documents\cscd371\MissileCommand\bin\Debug\MissileCommand.pdb
+C:\Users\Hung Auduong\Documents\cscd371\MissileCommand\obj\Debug\MissileCommand.csprojResolveAssemblyReference.cache
+C:\Users\Hung Auduong\Documents\cscd371\MissileCommand\obj\Debug\MissileCommand.MissileCommand.resources
+C:\Users\Hung Auduong\Documents\cscd371\MissileCommand\obj\Debug\MissileCommand.Properties.Resources.resources
+C:\Users\Hung Auduong\Documents\cscd371\MissileCommand\obj\Debug\MissileCommand.csproj.GenerateResource.Cache
+C:\Users\Hung Auduong\Documents\cscd371\MissileCommand\obj\Debug\MissileCommand.exe
+C:\Users\Hung Auduong\Documents\cscd371\MissileCommand\obj\Debug\MissileCommand.pdb

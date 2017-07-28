@@ -1,0 +1,16 @@
+﻿<Window x:Class="Craps.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Craps"
+        mc:Ignorable="d"
+        Title="Gamble Window" Height="300" Width="343">
+   <Grid>
+      <Label x:Name="descriptionLabel" Content="Please place a numeric value" HorizontalAlignment="Left" Margin="56,36,0,0" VerticalAlignment="Top" Height="32" Width="171"/>
+      <Label x:Name="label" Content="To start the game. (Must be POSITIVE)" HorizontalAlignment="Left" Margin="56,68,0,0" VerticalAlignment="Top"/>
+      <Button x:Name="button" Content="DONE" HorizontalAlignment="Left" Margin="88,192,0,0" VerticalAlignment="Top" Width="118" Height="44" Click="button_Click"/>
+      <TextBox x:Name="betBox" HorizontalAlignment="Left" Height="44" Margin="88,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"/>
+
+   </Grid>
+</Window>

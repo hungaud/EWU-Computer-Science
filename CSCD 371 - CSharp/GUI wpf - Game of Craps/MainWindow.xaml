@@ -1,0 +1,75 @@
+﻿<Window x:Class="Craps.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Craps"
+        mc:Ignorable="d"
+
+        Title="Game Of Craps" Height="450" Width="500">
+
+   <Grid Margin="0,0,2,2" RenderTransformOrigin="0.637,0.484">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" MinWidth="490" />
+            <ColumnDefinition Width="0" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="417"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Menu Margin="0,0,0,393">
+            <MenuItem Header="_Game" >
+                <MenuItem x:Name="startMenuItem" Header="_Start" Click="startMenuItem_Click" />
+                <MenuItem x:Name="startBet" Header="_Start with Bet" Click="startBet_Click"/>
+                <MenuItem x:Name="resetMenuItem" Header="_Reset" Click="resetMenuItem_Click" />
+                <Separator />
+                <MenuItem x:Name="exit" Header="_Exit" Click="exit_Click" />
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem x:Name="aboutMenuItem" Header="_About" Click="aboutMenuItem_Click" />
+                <MenuItem x:Name="rulesMenuItem" Header="_Rules" Click="rulesMenuItem_Click" />
+            </MenuItem>
+        </Menu>
+        <Button x:Name="rollDiceButton" Content="_Roll Dice" HorizontalAlignment="Left" Margin="25,67,0,0" VerticalAlignment="Top" Width="164" Height="43" FontSize="16" Click="rollDiceButton_Click"/>
+        <RichTextBox x:Name="pointTextBox" HorizontalAlignment="Left" Height="26" Margin="106,125,0,0" VerticalAlignment="Top" Width="83">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label x:Name="pointLabel" Content="Point" HorizontalAlignment="Left" Margin="25,125,0,0" VerticalAlignment="Top" Width="59" FontSize="14" Height="26"/>
+        <Label x:Name="resultLabel" Content="" HorizontalAlignment="Left" Margin="49,226,0,0" VerticalAlignment="Top" Height="84" Width="140"/>
+        <Button x:Name="playAgainButton" Content="Play Again" HorizontalAlignment="Left" Margin="49,334,0,0" VerticalAlignment="Top" Width="142" Height="51" RenderTransformOrigin="0.414,0.554" FontSize="16" Click="playAgainButton_Click"/>
+        <GroupBox x:Name="currentRollBox" Header="Current Roll" HorizontalAlignment="Left" Margin="259,51,0,0" VerticalAlignment="Top" Height="168" Width="221" FontSize="14" Opacity="1.5" BorderThickness="1"/>
+
+        <Label x:Name="die2" Content="Die 2" HorizontalAlignment="Left" Margin="284,125,0,0" VerticalAlignment="Top" Width="43" FontSize="12" />
+        <Label x:Name="die1" Content="Die 1" HorizontalAlignment="Left" Margin="284,84,0,0" VerticalAlignment="Top" Width="43" FontSize="12" />
+        <RichTextBox x:Name="rollOneTextBox" HorizontalAlignment="Left" Height="26" Margin="359,84,0,0" VerticalAlignment="Top" Width="89">
+            <FlowDocument/>
+        </RichTextBox>
+        <RichTextBox x:Name="rollTwoTextBox" HorizontalAlignment="Left" Height="26" Margin="359,125,0,0" VerticalAlignment="Top" Width="89">
+            <FlowDocument/>
+        </RichTextBox>
+        <Label x:Name="totalLabel" Content="Total" HorizontalAlignment="Left" Margin="284,182,0,0" VerticalAlignment="Top"/>
+        <RichTextBox x:Name="sumTextBox" HorizontalAlignment="Left" Height="26" Margin="359,182,0,0" VerticalAlignment="Top" Width="89">
+            <FlowDocument/>
+        </RichTextBox>
+        <GroupBox x:Name="winTotal" Header="Win Totals" HorizontalAlignment="Left" Margin="259,283,0,0" VerticalAlignment="Top" Height="102" Width="221"/>
+        <Label x:Name="playerTotal" Content="Player Win Total" HorizontalAlignment="Left" Margin="275,305,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label x:Name="houseTotal" Content="House Win Total" HorizontalAlignment="Left" Margin="275,348,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.711,3.115"/>
+        <RichTextBox x:Name="playerWinTextbox" HorizontalAlignment="Left" Height="26" Margin="392,305,0,0" VerticalAlignment="Top" Width="75">
+            <FlowDocument/>
+        </RichTextBox>
+        <RichTextBox x:Name="houseWinTextbox" HorizontalAlignment="Left" Height="26" Margin="392,348,0,0" VerticalAlignment="Top" Width="75">
+            <FlowDocument/>
+        </RichTextBox>
+      <Label x:Name="bet" Content="Bet" HorizontalAlignment="Left" Margin="25,188,0,0" VerticalAlignment="Top" Width="42" FontSize="14"/>
+      <TextBox x:Name="betText" HorizontalAlignment="Left" Height="23" Margin="106,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" PreviewTextInput="NumberValidationTextBox"/>
+      <Label x:Name="balance" Content="Balance" HorizontalAlignment="Left" Margin="25,156,0,0" VerticalAlignment="Top" FontSize="14"/>
+      <TextBox x:Name="balanceText" HorizontalAlignment="Left" Height="23" Margin="106,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" FontSize="10"/>
+   </Grid>
+</Window>

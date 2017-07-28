@@ -1,0 +1,3 @@
+Bug where if Player 1 goes first, and game has 1 square left.
+It should be player 1's last turn which will decide the game,
+the entire app freezes where it can not be interacted. Must exit manually on Visual Studio.
