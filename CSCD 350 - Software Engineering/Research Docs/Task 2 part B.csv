@@ -1,0 +1,68 @@
+Hung Auduong,,,,,,,,,,,,,,,,,,
+,,Data,,Role,,,Pattern,,,Concern,,,Difficulty,,,Risk,,
+Element,,Static,Dynamic,Input,Processing,Output,Creational,Structural,Behavioral,Model,View,Controller,Easy,Moderate,Hard,Low,Moderate,High
+1,abort mode,,x,,,x,,x,x,x,x,x,,,x,,,x
+2,acceleration,,x,,,x,x,,,,,,,x,,x,,
+3,accelerometer,x,x,,x,,,,x,,,x,,x,,,x,
+4,actuator,,x,,x,x,,,x,x,x,,,,x,,,x
+5,attitude,,x,,,x,,,x,,x,,x,,,,x,
+6,attitude control system,,x,,,x,,,x,,x,,,x,,,,x
+7,boost stage,,x,,,x,x,,,x,,,,x,,,x,
+8,center of mass,x,,x,x,,,,x,x,,,,,x,,,x
+9,combustion chamber,,x,,x,,x,x,,x,,,,,x,,,x
+10,Command Module (Apollo),,x,,x,,x,x,x,x,,,,,x,,,x
+11,control system,,x,,,x,,,x,,x,,,,x,,,x
+12,docking,,x,,x,,,x,,,,x,x,,,,x,
+13,drag,,x,x,,,,,x,x,x,,x,,,,x,
+14,engine (rocket),,x,,x,,x,,,x,,,,x,,,x,
+15,failsafe (system),,x,,,x,,,x,x,,,,,x,,,x
+16,failure mode,,x,,x,,,,x,x,,,,x,,,,x
+17,feedback,,x,,,x,,x,,,x,x,,x,,,x,
+18,"flight, orbital",x,,,,x,x,,,,,x,x,,,x,,
+19,"flight, suborbital",x,,,,x,x,,,,,,x,,,x,,
+20,fuel cell,,x,,,x,x,,,x,,,,x,,,,x
+21,gimbal,,x,,x,,,x,,x,,,,,x,,,x
+22,gravity,x,,,,x,x,,,,x,x,x,,,,x,
+23,guidance,,x,,x,,,,x,x,,,,,x,,,x
+24,gyroscope,,x,,x,,,,,x,,x,x,,,,x,
+25,inertial measurement unit,,x,,x,,x,,,x,,,,x,,,,x
+26,landing gear,,x,,,x,x,x,,x,,,,x,,,,x
+27,launch escape rocket,,x,,,x,x,x,,x,,,,x,,,x,
+28,launch vehicle,,x,,x,,x,,,,,x,,,x,,x,
+29,liftoff (stage),,x,,,x,,,x,x,,,,x,,,,x
+30,liquid fuel,,x,x,,,,,x,x,x,,x,,,,x,
+31,Lunar Module (Apollo),,x,,,x,x,,x,x,,,,,x,,,x
+32,maneuvering,,x,,x,,,,x,x,,,,x,,,,x
+33,oxidizer,,x,,x,,,,x,x,x,,x,,,,x,
+34,parachute,,x,,,x,,x,,x,,,x,,,,x,
+35,payload,x,,x,,,,x,,,x,,x,,,,x,
+36,pitch,,x,,x,,,,x,x,,,x,,,x,,
+37,probe (space),,x,,x,,x,,,,x,x,,,x,,x,
+38,propellant,,x,x,,,,,x,,,x,x,,,,x,
+39,reaction control system,,x,,,x,,,x,x,,,,x,,,x,
+40,reentry (stage),x,,,x,,,,x,,x,,,,x,,,x
+41,retrorocket,,x,,,x,x,x,,x,,,,x,,,,x
+42,roll,,x,,,x,,,x,x,,,x,,,x,,
+43,satellite,,x,,,x,x,,,x,x,,,,x,,,x
+44,self-destruct (system),,x,,x,,,,x,x,,,,x,,,,x
+45,sensor,x,,,x,,,,x,,,x,,x,,,,x
+46,Service Module (Apollo),,x,,,x,x,,,x,,,,x,,,x,
+47,solar panel,x,,x,,,,,x,,,x,x,,,x,,
+48,solid fuel,,x,x,,,,,x,,x,,,x,,,,x
+49,"stage, multiple (rocket)",,x,,,x,x,x,,x,,,,x,,,x,
+50,"stage, single (rocket)",,x,,x,,x,,,,x,,,x,,,,x
+51,tank (fuel/oxidizer),,x,,,x,x,,,x,x,,x,,,x,,
+52,telemetry,,x,,x,,,,x,,,x,,x,,,,x
+53,thrust,,x,x,,,,,x,,,x,,x,,,,x
+54,thrust-to-weight ratio,x,x,,x,,x,,,,x,,x,,,x,,
+55,"thrust, deflected",,x,x,,,x,,,x,,,,x,,x,,
+56,"thrust, gimbaled",,x,x,,,,,x,,,x,,,x,,,x
+57,truss,x,,,,x,,x,,,x,,x,,,x,,
+58,turbopump,x,,,,x,,x,,x,,,,,x,,,x
+59,velocity,,x,,,x,x,,,,x,,x,,,,,x
+60,vernier thruster,,x,,x,,,x,,,,x,,,x,,,x
+61,yaw,,x,,x,,,,x,,x,,x,,,,x,
+62,watchdog,,x,,x,,,x,,,x,,,,x,,,x
+,,,,,,,,,,,,,,,,,,
+,<code>,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q
+,<count>,12,52,10,26,28,24,16,30,34,22,16,20,24,18,10,21,31

@@ -1,0 +1,10 @@
+==2353==
+==2353== HEAP SUMMARY:
+==2353==     in use at exit: 0 bytes in 0 blocks
+==2353==   total heap usage: 7 allocs, 7 frees, 1,836 bytes allocated
+==2353==
+==2353== All heap blocks were freed -- no leaks are possible
+==2353==
+==2353== For counts of detected and suppressed errors, rerun with: -v
+==2353== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+hauduong@cscd-linux01:~/cscd240/lab12$

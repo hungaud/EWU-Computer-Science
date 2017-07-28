@@ -1,0 +1,10 @@
+==22869==
+==22869== HEAP SUMMARY:
+==22869==     in use at exit: 0 bytes in 0 blocks
+==22869==   total heap usage: 2 allocs, 2 frees, 44 bytes allocated
+==22869==
+==22869== All heap blocks were freed -- no leaks are possible
+==22869==
+==22869== For counts of detected and suppressed errors, rerun with: -v
+==22869== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+hauduong@cscd-linux01:~/cscd240/lab11$

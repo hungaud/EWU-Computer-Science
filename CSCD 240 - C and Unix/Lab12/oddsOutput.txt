@@ -1,0 +1,1 @@
+The mean, median, and standard deviation are: 22.00 3.00 19.97

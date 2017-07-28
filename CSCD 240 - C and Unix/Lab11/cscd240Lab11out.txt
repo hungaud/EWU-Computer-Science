@@ -1,0 +1,37 @@
+hauduong@cscd-linux01:~/cscd240/lab11$ ./lab11
+Length of Array :5
+Menu, choose one of the following
+1: printSortedArray
+2: addItem
+3: readValue
+4: quit
+1
+1 11 21 31 41
+Menu, choose one of the following
+1: printSortedArray
+2: addItem
+3: readValue
+4: quit
+2
+Menu, choose one of the following
+1: printSortedArray
+2: addItem
+3: readValue
+4: quit
+1
+1 11 21 31 41 42
+Menu, choose one of the following
+1: printSortedArray
+2: addItem
+3: readValue
+4: quit
+3
+Value :41
+41 was found at index 4
+Menu, choose one of the following
+1: printSortedArray
+2: addItem
+3: readValue
+4: quit
+4
+hauduong@cscd-linux01:~/cscd240/lab11$

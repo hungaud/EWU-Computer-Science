@@ -1,0 +1,93 @@
+Input file to read: input.txt
+========== MENU ==========
+1) Print the array sorted by Street
+2) Print the array sroted by City
+3) Print the array sorted by State then City then by Zip
+4) Print the array sorted by Zip
+5) Quit
+1
+123 Anywhere
+Spokane WA 99223
+2910 Sudlow
+Glendive MT 59301
+305 Caravan
+Billings MT 59105
+318 NW St
+Washington DC 10280
+319F CEB
+Cheney WA 99004
+500 Sprague Ave
+Spokane WA 99201
+6405 Colton
+Billings MT 59106
+========== MENU ==========
+1) Print the array sorted by Street
+2) Print the array sroted by City
+3) Print the array sorted by State then City then by Zip
+4) Print the array sorted by Zip
+5) Quit
+2
+305 Caravan
+Billings MT 59105
+6405 Colton
+Billings MT 59106
+319F CEB
+Cheney WA 99004
+2910 Sudlow
+Glendive MT 59301
+123 Anywhere
+Spokane WA 99223
+500 Sprague Ave
+Spokane WA 99201
+318 NW St
+Washington DC 10280
+========== MENU ==========
+1) Print the array sorted by Street
+2) Print the array sroted by City
+3) Print the array sorted by State then City then by Zip
+4) Print the array sorted by Zip
+5) Quit
+3
+318 NW St
+Washington DC 10280
+305 Caravan
+Billings MT 59105
+6405 Colton
+Billings MT 59106
+2910 Sudlow
+Glendive MT 59301
+319F CEB
+Cheney WA 99004
+500 Sprague Ave
+Spokane WA 99201
+123 Anywhere
+Spokane WA 99223
+========== MENU ==========
+1) Print the array sorted by Street
+2) Print the array sroted by City
+3) Print the array sorted by State then City then by Zip
+4) Print the array sorted by Zip
+5) Quit
+4
+318 NW St
+Washington DC 10280
+305 Caravan
+Billings MT 59105
+6405 Colton
+Billings MT 59106
+2910 Sudlow
+Glendive MT 59301
+319F CEB
+Cheney WA 99004
+500 Sprague Ave
+Spokane WA 99201
+123 Anywhere
+Spokane WA 99223
+========== MENU ==========
+1) Print the array sorted by Street
+2) Print the array sroted by City
+3) Print the array sorted by State then City then by Zip
+4) Print the array sorted by Zip
+5) Quit
+5
+all done

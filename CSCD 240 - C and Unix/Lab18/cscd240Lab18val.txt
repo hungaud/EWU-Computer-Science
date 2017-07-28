@@ -1,0 +1,10 @@
+==2502==
+==2502== HEAP SUMMARY:
+==2502==     in use at exit: 0 bytes in 0 blocks
+==2502==   total heap usage: 62 allocs, 62 frees, 1,263 bytes allocated
+==2502==
+==2502== All heap blocks were freed -- no leaks are possible
+==2502==
+==2502== For counts of detected and suppressed errors, rerun with: -v
+==2502== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+hauduong@cscd-linux01:~/cscd240/lab18$

@@ -1,0 +1,47 @@
+Input file to read: stocks.txt
+========== MENU ==========
+1) Print the array sorted by Symbol
+2) Print the array sroted by Compnay's Name
+3) Print the array sorted by Current Price
+4) Quit
+1
+Google - GOOG - 721.110000
+Hillenbrand Inc - HI - 30.650000
+Microsoft - MSFT - 53.240000
+Charles Schwab - SCHW - 31.370000
+========== MENU ==========
+1) Print the array sorted by Symbol
+2) Print the array sroted by Compnay's Name
+3) Print the array sorted by Current Price
+4) Quit
+2
+Charles Schwab - SCHW - 31.370000
+Google - GOOG - 721.110000
+Hillenbrand Inc - HI - 30.650000
+Microsoft - MSFT - 53.240000
+========== MENU ==========
+1) Print the array sorted by Symbol
+2) Print the array sroted by Compnay's Name
+3) Print the array sorted by Current Price
+4) Quit
+3
+Hillenbrand Inc - HI - 30.650000
+Charles Schwab - SCHW - 31.370000
+Microsoft - MSFT - 53.240000
+Google - GOOG - 721.110000
+========== MENU ==========
+1) Print the array sorted by Symbol
+2) Print the array sroted by Compnay's Name
+3) Print the array sorted by Current Price
+4) Quit
+4
+all done
+==25091==
+==25091== HEAP SUMMARY:
+==25091==     in use at exit: 0 bytes in 0 blocks
+==25091==   total heap usage: 1 allocs, 1 frees, 568 bytes allocated
+==25091==
+==25091== All heap blocks were freed -- no leaks are possible
+==25091==
+==25091== For counts of detected and suppressed errors, rerun with: -v
+==25091== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

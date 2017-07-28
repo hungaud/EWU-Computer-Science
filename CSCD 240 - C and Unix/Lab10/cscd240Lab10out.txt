@@ -1,0 +1,103 @@
+hauduong@cscd-linux01:~/cscd240/lab10$ make
+gcc cscd240Lab10.c lab10.c  utils.o -o lab10
+hauduong@cscd-linux01:~/cscd240/lab10$ ./lab10
+A game of Hangman
+player 1 will choose a word
+player 2 will have 7 tries to guess the word
+Please enter player's name: a
+Please enter player's name: b
+Player 1, please enter the word to guess: hello
+Your word contains 5 letters.
+-----
+Availible Letters: abcdefghijklmnopqrstuvwxyz
+Enter a Letter: h
+h----
+
+Availible Letters: abcdefg ijklmnopqrstuvwxyz
+Enter a Letter: d
+
+Incorrect guess! You have 6 more tries!
+h----
+
+Availible Letters: abc efg ijklmnopqrstuvwxyz
+Enter a Letter: m
+
+Incorrect guess! You have 5 more tries!
+h----
+
+Availible Letters: abc efg ijkl nopqrstuvwxyz
+Enter a Letter: e
+he---
+
+Availible Letters: abc  fg ijkl nopqrstuvwxyz
+Enter a Letter: e
+Letter either has already been guessed or is invalid
+
+Availible Letters: abc  fg ijkl nopqrstuvwxyz
+Enter a Letter: l
+hell-
+
+Availible Letters: abc  fg ijk  nopqrstuvwxyz
+Enter a Letter: o
+hello
+Congratulations! Player 2 has won
+Play again? y
+A game of Hangman
+player 1 will choose a word
+player 2 will have 7 tries to guess the word
+Please enter player's name: a
+Please enter player's name: b
+Player 1, please enter the word to guess: dog
+Your word contains 3 letters.
+---
+Availible Letters: abcdefghijklmnopqrstuvwxyz
+Enter a Letter: a
+
+Incorrect guess! You have 6 more tries!
+---
+
+Availible Letters:  bcdefghijklmnopqrstuvwxyz
+Enter a Letter: b
+
+Incorrect guess! You have 5 more tries!
+---
+
+Availible Letters:   cdefghijklmnopqrstuvwxyz
+Enter a Letter: c
+
+Incorrect guess! You have 4 more tries!
+---
+
+Availible Letters:    defghijklmnopqrstuvwxyz
+Enter a Letter: e
+
+Incorrect guess! You have 3 more tries!
+---
+
+Availible Letters:    d fghijklmnopqrstuvwxyz
+Enter a Letter: f
+
+Incorrect guess! You have 2 more tries!
+---
+
+Availible Letters:    d  ghijklmnopqrstuvwxyz
+Enter a Letter: f
+Letter either has already been guessed or is invalid
+
+Availible Letters:    d  ghijklmnopqrstuvwxyz
+Enter a Letter: g
+--g
+
+Availible Letters:    d   hijklmnopqrstuvwxyz
+Enter a Letter: h
+
+Incorrect guess! You have 1 more tries!
+--g
+
+Availible Letters:    d    ijklmnopqrstuvwxyz
+Enter a Letter: i
+
+Incorrect guess! You have 0 more tries!
+--g
+Sorry! You lost
+Play again? n

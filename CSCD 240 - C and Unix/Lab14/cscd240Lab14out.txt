@@ -1,0 +1,24 @@
+Enter a string:
+Invalid String, String length is either 0 or starts with a space!
+Please try again!
+Enter a string: 
+Invalid String, String length is either 0 or starts with a space!
+Please try again!
+Enter a string:  hello
+Invalid String, String length is either 0 or starts with a space!
+Please try again!
+Enter a string: hello world
+There are 2 tokens.
+The tokens are:
+hello
+world
+Enter a string: catch me outside how bah dah
+There are 6 tokens.
+The tokens are:
+catch
+me
+outside
+how
+bah
+dah
+Enter a string: exit

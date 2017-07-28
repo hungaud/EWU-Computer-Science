@@ -1,0 +1,37 @@
+hauduong@cscd-linux01:~/cscd240/lab8$ gcc -o lab8 cscd240Lab8.c
+hauduong@cscd-linux01:~/cscd240/lab8$ ./lab8
+The name is: Stu Steiner
+Please enter the Labs total 9
+Please enter Labs score 95
+Please enter Labs score 89
+Please enter Labs score 85
+Please enter Labs score 75
+Please enter Labs score 85
+Please enter Labs score 90
+Please enter Labs score 95
+Please enter Labs score 55
+Please enter Labs score 90
+Lab The average is: 84.3
+Please enter the Homeworks total 5
+Please enter Homeworks score 90
+Please enter Homeworks score 85
+Please enter Homeworks score 88
+Please enter Homeworks score 100
+Please enter Homeworks score 30
+Homework The average is: 78.6
+Please enter the Quizzes total 6
+Please enter Quizzes score 99
+Please enter Quizzes score 100
+Please enter Quizzes score 98
+Please enter Quizzes score 76
+Please enter Quizzes score 80
+Please enter Quizzes score 85
+Quiz The average is: 89.7
+Please enter the Exams total 3
+Please enter Exams score 56
+Please enter Exams score 85
+Please enter Exams score 95
+Exam The average is: 78.7
+Your weighted percentage is: 81.0
+Your final grade is: 2.6
+

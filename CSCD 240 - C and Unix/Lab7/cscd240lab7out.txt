@@ -1,0 +1,30 @@
+hauduong@cscd-linux01:~/cscd240/lab7$ gcc -o lab7 cscd240Lab7.c
+hauduong@cscd-linux01:~/cscd240/lab7$ ./lab7
+Please Enter the customer code:r
+Please enter the begining meter reading:0
+Please enter the ending meter reading:1234567
+The customer's code is: r
+The customer's begining meter reading is: 0
+The customer's ending meter reading is: 1234567
+The customer used 123456.7 gallons of water.
+The customer's bill is: $66.73
+hauduong@cscd-linux01:~/cscd240/lab7$ ./lab7
+Please Enter the customer code:c
+Please enter the begining meter reading:0
+Please enter the ending meter reading:41234567
+The customer's code is: c
+The customer's begining meter reading is: 0
+The customer's ending meter reading is: 41234567
+The customer used 4123456.7 gallons of water.
+The customer's bill is: $1030.86
+hauduong@cscd-linux01:~/cscd240/lab7$ ./lab7
+Please Enter the customer code:i
+Please enter the begining meter reading:0
+Please enter the ending meter reading:123456789
+The customer's code is: i
+The customer's begining meter reading is: 0
+The customer's ending meter reading is: 123456789
+The customer used 12345678.9 gallons of water.
+The customer's bill is: $2586.42
+hauduong@cscd-linux01:~/cscd240/lab7$
+

@@ -1,0 +1,11 @@
+==19831==
+==19831== HEAP SUMMARY:
+==19831==     in use at exit: 0 bytes in 0 blocks
+==19831==   total heap usage: 15 allocs, 15 frees, 194 bytes allocated
+==19831==
+==19831== All heap blocks were freed -- no leaks are possible
+==19831==
+==19831== For counts of detected and suppressed errors, rerun with: -v
+==19831== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+hauduong@cscd-linux01:~/cscd240/lab14$ ^C
+hauduong@cscd-linux01:~/cscd240/lab14$
