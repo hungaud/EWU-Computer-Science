@@ -1,0 +1,19 @@
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\bin\Debug\MidtermProject.exe.config
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\bin\Debug\MidtermProject.exe
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\bin\Debug\MidtermProject.pdb
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\Debug\MidtermProject.MainForm.resources
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\Debug\MidtermProject.Properties.Resources.resources
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\Debug\MidtermProject.QueryForm.resources
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\Debug\MidtermProject.csproj.GenerateResource.Cache
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\Debug\MidtermProject.exe
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\Debug\MidtermProject.pdb
+C:\Users\Hung Auduong\Documents\cscd371\MidtermProject\bin\Debug\MidtermProject.exe.config
+C:\Users\Hung Auduong\Documents\cscd371\MidtermProject\bin\Debug\MidtermProject.exe
+C:\Users\Hung Auduong\Documents\cscd371\MidtermProject\bin\Debug\MidtermProject.pdb
+C:\Users\Hung Auduong\Documents\cscd371\MidtermProject\obj\Debug\MidtermProject.csprojResolveAssemblyReference.cache
+C:\Users\Hung Auduong\Documents\cscd371\MidtermProject\obj\Debug\MidtermProject.MainForm.resources
+C:\Users\Hung Auduong\Documents\cscd371\MidtermProject\obj\Debug\MidtermProject.Properties.Resources.resources
+C:\Users\Hung Auduong\Documents\cscd371\MidtermProject\obj\Debug\MidtermProject.QueryForm.resources
+C:\Users\Hung Auduong\Documents\cscd371\MidtermProject\obj\Debug\MidtermProject.csproj.GenerateResource.Cache
+C:\Users\Hung Auduong\Documents\cscd371\MidtermProject\obj\Debug\MidtermProject.exe
+C:\Users\Hung Auduong\Documents\cscd371\MidtermProject\obj\Debug\MidtermProject.pdb

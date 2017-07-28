@@ -1,0 +1,10 @@
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\bin\x86\Debug\MidtermProject.exe.config
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\bin\x86\Debug\MidtermProject.exe
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\bin\x86\Debug\MidtermProject.pdb
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\bin\x86\Debug\System.Data.SQLite.dll
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\x86\Debug\MidtermProject.MainForm.resources
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\x86\Debug\MidtermProject.Properties.Resources.resources
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\x86\Debug\MidtermProject.QueryForm.resources
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\x86\Debug\MidtermProject.csproj.GenerateResource.Cache
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\x86\Debug\MidtermProject.exe
+C:\Users\HungA\OneDrive\Documents\Visual Studio 2015\Projects\MidtermProject\obj\x86\Debug\MidtermProject.pdb
