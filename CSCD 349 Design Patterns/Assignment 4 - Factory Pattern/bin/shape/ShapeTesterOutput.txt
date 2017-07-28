@@ -1,0 +1,21 @@
+Before the sorting: 
+
+Circle has an area of 78.53981633974483
+Triangle has an area of 25.0
+Triangle has an area of 15.0
+Rectangle has an area of 18.0
+Rectangle has an area of 9.0
+Circle has an area of 50.26548245743669
+Square has an area of 121.0
+Square has an area of 25.0
+
+After the sorting: 
+
+Circle has an area of 50.26548245743669
+Circle has an area of 78.53981633974483
+Rectangle has an area of 9.0
+Rectangle has an area of 18.0
+Square has an area of 25.0
+Square has an area of 121.0
+Triangle has an area of 15.0
+Triangle has an area of 25.0
