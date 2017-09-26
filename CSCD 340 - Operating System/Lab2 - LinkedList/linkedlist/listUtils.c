@@ -1,19 +1,30 @@
 #include "listUtils.h"
 
 Node * buildNode(FILE * in, void *(*buildData)(FILE * in) ) {
-   Node * nn = (Node *)buildData(in);
+   Node * nn = (Node *) calloc(1, sizeof(Node));
+   nn->data = buildData(in);
+   nn->next = NULL;
+   nn->prev = NULL;
+   
    return nn;
+
 }
 
 Node * buildNode_Type(void * passedIn) {
    Node * nn = (Node *)calloc(1, sizeof(Node));
    nn->data = passedIn;
+   nn->next = NULL;
+   nn->prev = NULL;
    return nn;
 }
 
             //printf("%s---- %s \n", min->data, search->data);
 
 void sort(LinkedList * theList, int (*compare)(const void *, const void *)) {
+   if(theList == NULL) {
+      printf("sort but list was NULL");
+      exit(-99);
+   }
    Node * start = theList->head->next;
    Node * search, * min;
    void * temp = NULL;
@@ -23,7 +34,7 @@ void sort(LinkedList * theList, int (*compare)(const void *, const void *)) {
 		 search = start->next;
 
          while(search != NULL) {
-            if(compare(&search->data, &min->data) < 0) {
+            if(compare(search->data, min->data) < 0) {
                min = search;
             }
             search = search->next;
@@ -42,8 +53,14 @@ void buildListTotal(LinkedList * myList,int total, FILE * fin, void * (*buildDat
       exit(-1);
    }
    int i;
+   Node * nn;
    for(i = 0; i < total; i++) {
-      Node * nn = buildData(fin);
+      nn = buildNode(fin, buildData);
       addFirst(myList, nn);
    }
+   
+
 }
+
+
+

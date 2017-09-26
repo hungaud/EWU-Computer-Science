@@ -14,7 +14,7 @@
  */
  
 void cleanTypeMovie(void * ptr) {
-   if(ptr == NULL) {
+   /*if(ptr == NULL) {
       printf("Attempted to clean list of movies but List passed in is empty");
       exit(-99);
    }
@@ -29,7 +29,7 @@ void cleanTypeMovie(void * ptr) {
    }
    free(temp->actors);
    temp->actors = NULL;
-   temp->title = NULL;
+   temp->title = NULL;*/
  
 }
 

@@ -1,15 +1,16 @@
 #include "word.h"
 
 void cleanTypeWord(void * ptr) {
-   Word * temp = (Word *)ptr;
-   int i;
-   int n = temp->len;
-   for(i = 0; i < n; i++) {
-      free(temp[i].ltrs);
+   if(ptr == NULL) {
+      printf("CLean type ptr was null");
+      exit(-99);
    }
+   Word * temp = (Word *)ptr;
+   printf("%s ", temp->ltrs);
+   free(temp->ltrs);
+   temp->ltrs = NULL;
    temp->len = 0;
    free(temp);
-   temp = NULL;
 }
 
 
@@ -20,10 +21,11 @@ void * buildTypeWord(FILE * fin) {
    }
    char temp[100];
    Word * tempWord = (Word *)calloc(1, sizeof(Word));
-   int length;
-   fscanf(fin, "%s ", temp);
+
+   fgets(temp, 100, fin);
    strip(temp);
-   length = strlen(temp);
+   //printf("%s \n", temp);
+   int length = strlen(temp);
    tempWord->ltrs = (char *)calloc(length + 1, sizeof(char));
    strcpy(tempWord->ltrs, temp);
    tempWord->len = length;
@@ -31,6 +33,10 @@ void * buildTypeWord(FILE * fin) {
 }
 
 void printTypeWord(void * passedIn) {
+   if(passedIn == NULL) {
+      printf("print type passedin was Null");
+      exit(-99);
+   }
    Word * temp = (Word *) passedIn;
    int length = strlen(temp->ltrs);
    printf("%s, ", temp->ltrs);
@@ -44,11 +50,10 @@ void * buildTypeWord_Prompt(FILE * in) {
    }
    char temp[100];
    Word * tempWord = (Word *)calloc(1, sizeof(Word));
-   int length;
    printf("Word: ");
-   fgets(temp, MAX, stdin);
+   fgets(temp, MAX, in);
    strip(temp);
-   length = strlen(temp);
+   int length = strlen(temp);
    tempWord->ltrs = (char *)calloc(length + 1, sizeof(char));
    strcpy(tempWord->ltrs, temp);
    tempWord->len = length;

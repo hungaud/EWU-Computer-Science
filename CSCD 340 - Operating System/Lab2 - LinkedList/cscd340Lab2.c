@@ -49,7 +49,7 @@ int main()
          case 4: sort(wordList, compareWord);
                  break;
 
-         case 5: removeFirst(wordList, cleanTypeWord);
+         case 5: removeLast(wordList, cleanTypeWord);
 		 break;
 
 	 case 6: removeItem(wordList, buildNode(stdin, buildTypeWord_Prompt), cleanTypeWord, compareWord);
@@ -77,12 +77,13 @@ int main()
    }while(choice != 12);
 
    clearList(wordList, cleanTypeWord);
-   //free(wordList);
-   //wordList = NULL;
+         
+   free(wordList);
+   wordList = NULL;
 
-  // clearList(movieList, cleanTypeMovie);
-  // free(movieList);
-  // movieList = NULL;
+   //clearList(movieList, cleanTypeMovie);
+   //free(movieList);
+   //movieList = NULL;
 
    printf("Program Ended\n");
 
