@@ -105,8 +105,11 @@ void removeFirst(LinkedList * theList, void (*removeData)(void *)){
       printf("Attempted to removeFirst but list is empty");
       exit(-99);
    } else if (theList->size == 1) {
-      removeData(theList->head->next);
+      removeData(theList->head->next->data);
+      free(theList->head->next);
       theList->head->next = NULL;
+      theList->size = 0;
+      printf("List is now empty \n");
    } else {
       Node * n = theList->head->next;
       Node * temp = n->next; 
@@ -125,8 +128,13 @@ void removeLast(LinkedList * theList, void (*removeData)(void *)) {
    if(theList == NULL || theList->head->next == NULL) {
       printf("\nThe linked list is null/empty \n");
       exit(-99);
-   }
-   else {
+   } else if (theList->size == 1) {
+      removeData(theList->head->next->data);
+      free(theList->head->next);
+      theList->head->next = NULL;
+      theList->size = 0;
+      printf("List is now empty \n");
+   } else {
       Node * curr = theList->head->next;
       while(curr->next != NULL) {
          curr = curr->next;
@@ -135,7 +143,6 @@ void removeLast(LinkedList * theList, void (*removeData)(void *)) {
       removeData(curr->next->data);
       theList->size = theList->size-1;
       free(curr->next);
-      
       curr->next = NULL;
    }
 }
@@ -158,8 +165,8 @@ void clearList(LinkedList * theList, void (*removeData)(void *)) {
       free(curr);
       curr= NULL;
    }
-    free(theList->head);
-   
+   free(theList->head);
+   printf("List is now cleared\n");
 
 }
 
