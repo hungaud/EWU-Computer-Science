@@ -102,9 +102,12 @@ void removeItem(LinkedList * theList, Node * nn, void (*removeData)(void *), int
 
 void removeFirst(LinkedList * theList, void (*removeData)(void *)){
    if(theList == NULL) {
-		printf("Attempted to removeFirst but list is empty");
+      printf("Attempted to removeFirst but list is empty");
       exit(-99);
-	} else {
+   } else if (theList->size == 1) {
+      removeData(theList->head->next);
+      theList->head->next = NULL;
+   } else {
       Node * n = theList->head->next;
       Node * temp = n->next; 
       theList->head->next = temp;
@@ -113,6 +116,7 @@ void removeFirst(LinkedList * theList, void (*removeData)(void *)){
       removeData(n->data);
       free(n);
       n = NULL;
+      
    }
 }
 
