@@ -18,7 +18,7 @@ Node * buildNode_Type(void * passedIn) {
    return nn;
 }
 
-            //printf("%s---- %s \n", min->data, search->data);
+
 
 void sort(LinkedList * theList, int (*compare)(const void *, const void *)) {
    if(theList == NULL) {

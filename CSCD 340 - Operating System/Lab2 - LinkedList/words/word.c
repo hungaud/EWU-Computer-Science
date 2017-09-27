@@ -6,7 +6,6 @@ void cleanTypeWord(void * ptr) {
       exit(-99);
    }
    Word * temp = (Word *)ptr;
-   printf("%s ", temp->ltrs);
    free(temp->ltrs);
    temp->ltrs = NULL;
    temp->len = 0;
@@ -39,7 +38,7 @@ void printTypeWord(void * passedIn) {
    }
    Word * temp = (Word *) passedIn;
    int length = strlen(temp->ltrs);
-   printf("%s, ", temp->ltrs);
+   printf("%s - %d\n", temp->ltrs, length);
 }
 
 

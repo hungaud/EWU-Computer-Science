@@ -89,7 +89,6 @@ void removeItem(LinkedList * theList, Node * nn, void (*removeData)(void *), int
 	    curr->prev = prev;
             removeData(curr->data);
             theList->size = theList->size - 1;
-            free(curr->data);
 	    free(curr);
             curr = NULL;
 
@@ -174,6 +173,6 @@ void printList(const LinkedList * theList, void (*convertData)(void *)) {
       }
       free(curr);
       curr = NULL;
-      printf("\n\n");
+      printf("\n");
    }
 }

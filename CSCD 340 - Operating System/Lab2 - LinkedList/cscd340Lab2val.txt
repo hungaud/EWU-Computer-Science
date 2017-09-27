@@ -1,0 +1,353 @@
+
+hungaud@ubuntu:~/Documents/cscd340/Lab2$ valgrind ./lab2
+==4486== Memcheck, a memory error detector
+==4486== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==4486== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==4486== Command: ./lab2
+==4486== 
+Please enter the name of the words input file input/words.txt
+Please enter the name of the movies input file input/movies.txt
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 1
+
+Weir - 4
+Andy - 4
+Edition - 7
+8th - 3
+Concepts - 8
+Systems - 7
+Operating - 9
+
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 2
+Word: apple
+
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 3
+Word: lastword
+
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 4
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 1
+
+8th - 3
+Andy - 4
+apple - 5
+Concepts - 8
+Edition - 7
+lastword - 8
+Operating - 9
+Systems - 7
+Weir - 4
+
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 5
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 6   
+Word: Edition
+
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 1
+
+Andy - 4
+apple - 5
+Concepts - 8
+lastword - 8
+Operating - 9
+Systems - 7
+Weir - 4
+
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 7
+
+Star Wars 
+1 
+Hung auduong
+
+Gone Girl 
+1 
+Ben Affleck
+
+Star Wars 
+3 
+Harrison Ford
+Carrie Fisher
+Mark Hamill
+
+Fast and Furious 7 
+2 
+Vin Diesel
+Paul Walker
+
+
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 8
+Movie: it
+Total Actors: 1  
+Actor's First Name: bad
+Actor's Last Name: clown
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 9
+Movie: it2
+Total Actors: 2
+Actor's First Name: bad
+Actor's Last Name: verybadclown
+Actor's First Name: dead
+Actor's Last Name: person
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 1
+
+Andy - 4
+apple - 5
+Concepts - 8
+lastword - 8
+Operating - 9
+Systems - 7
+Weir - 4
+
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 7
+
+it 
+1 
+bad clown
+
+Star Wars 
+1 
+Hung auduong
+
+Gone Girl 
+1 
+Ben Affleck
+
+Star Wars 
+3 
+Harrison Ford
+Carrie Fisher
+Mark Hamill
+
+Fast and Furious 7 
+2 
+Vin Diesel
+Paul Walker
+
+it2 
+2 
+bad verybadclown
+dead person
+
+
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 10
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 11
+Movie: Gone Girl
+Total Actors: 1
+Actor's First Name: Ben
+Actor's Last Name: Affleck
+1) Print the list - Word
+2) Add First - Word
+3) Add Last - Word
+4) Sort - Word
+5) Remove First - Word
+6) Remove Item - Word
+============================
+7) Print the list - Movie
+8) Add First - Movie
+9) Add Last - Movie
+10) Remove Last - Movie
+11) Remove Item - Movie
+12) Quit
+Choice --> 12
+Program Ended
+==4486== 
+==4486== HEAP SUMMARY:
+==4486==     in use at exit: 0 bytes in 0 blocks
+==4486==   total heap usage: 90 allocs, 90 frees, 12,613 bytes allocated
+==4486== 
+==4486== All heap blocks were freed -- no leaks are possible
+==4486== 
+==4486== For counts of detected and suppressed errors, rerun with: -v
+==4486== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+

@@ -23,11 +23,11 @@ int main()
    buildListTotal(wordList, total, fin, buildTypeWord);
    fclose(fin);
 
-  // LinkedList * movieList = linkedList();
-//   fin = openInputFileType_Prompt("movies");
- //  total = readTotal(fin);
- //  buildListTotal(movieList, total, fin, buildTypeMovie);
- //  fclose(fin);
+   LinkedList * movieList = linkedList();
+   fin = openInputFileType_Prompt("movies");
+   total = readTotal(fin);
+   buildListTotal(movieList, total, fin, buildTypeMovie);
+   fclose(fin);
 
    do
    {
@@ -49,30 +49,30 @@ int main()
          case 4: sort(wordList, compareWord);
                  break;
 
-         case 5: removeLast(wordList, cleanTypeWord);
+         case 5: removeFirst(wordList, cleanTypeWord);
 		 break;
 
 	 case 6: removeItem(wordList, buildNode(stdin, buildTypeWord_Prompt), cleanTypeWord, compareWord);
                  break;
 
 
-	// Movies
-	// case 7: printList(movieList, printTypeMovie);
-            //     break;
+	 //Movies
+	       case 7: printList(movieList, printTypeMovie);
+                 break;
 
-      //   case 8: addFirst(movieList, buildNode(stdin, buildTypeMovie_Prompt));
-           //      break;
+         case 8: addFirst(movieList, buildNode(stdin, buildTypeMovie_Prompt));
+                 break;
 
-     //    case 9: addLast(movieList, buildNode(stdin, buildTypeMovie_Prompt));
-          //       break;
+         case 9: addLast(movieList, buildNode(stdin, buildTypeMovie_Prompt));
+                 break;
 
-	// case 10: removeLast(movieList, cleanTypeMovie);
-	//	  break; 
+	       case 10: removeLast(movieList, cleanTypeMovie);
+		             break; 
 
-       //  case 11: removeItem(movieList, buildNode(stdin, buildTypeMovie_Prompt), cleanTypeMovie, compareMovie);
-               //  break;
+         case 11: removeItem(movieList, buildNode(stdin, buildTypeMovie_Prompt), cleanTypeMovie, compareMovie);
+                 break;
 
-      }// end switch
+      } //end switch
 
    }while(choice != 12);
 
@@ -81,9 +81,9 @@ int main()
    free(wordList);
    wordList = NULL;
 
-   //clearList(movieList, cleanTypeMovie);
-   //free(movieList);
-   //movieList = NULL;
+   clearList(movieList, cleanTypeMovie);
+   free(movieList);
+   movieList = NULL;
 
    printf("Program Ended\n");
 
