@@ -1,0 +1,8 @@
+Result of Lab5a
+
+hungaud@ubuntu:~/Documents/cscd340/Lab5$ gcc -o lab5a ./cscd340Lab5a.c
+hungaud@ubuntu:~/Documents/cscd340/Lab5$ ls -l | wc -w
+101
+hungaud@ubuntu:~/Documents/cscd340/Lab5$ ./lab5a
+101
+hungaud@ubuntu:~/Documents/cscd340/Lab5$
