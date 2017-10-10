@@ -24,7 +24,7 @@ char ** parsePrePipe(char *s, int * preCount) {
 	char * token = strtok_r(temp, "|", &save);
 	strip(token);
 	* preCount = makeargs(token, &pre);
-	printf("pre pipe command: %s %d \n", token, * preCount);
+	printf("pre pipe command: %s \n", token);
 	free(temp);
 	temp = NULL;
 	return pre;
@@ -40,7 +40,7 @@ char ** parsePostPipe(char *s, int * postCount) {
 	token = strtok_r(NULL, "|", &save);
 	strip(token);
 	* postCount = makeargs(token, &post);	
-	printf("post pipe command: %s %d \n", token + 1, * postCount);
+	printf("post pipe command: %s \n", token + 1);
 	free(temp);
 	temp = NULL;
 	return post;
@@ -64,12 +64,13 @@ void pipeIt(char ** prePipe, char ** postPipe) {
 			close(fd[1]);
 			res = execvp(prePipe[0], prePipe);
 			if (res == -1) {
-				exit(-99);
+				exit(-1);
 			}
 		} else {
 			waitpid(pid2, &status, 0);
 			if (status > 0) {
 				printf("Command not found: %s\n", prePipe[0]);
+				exit(-1);
 			}
 			close(fd[1]);
 			close(0);
@@ -78,13 +79,28 @@ void pipeIt(char ** prePipe, char ** postPipe) {
 			res = execvp(postPipe[0], postPipe);
 			if (res == -1) {
 				printf("Command not found: %s \n", postPipe[0]);
-				exit(-99);
+				exit(-1);
 			}
 		}
 	} else {
 		waitpid(pid, &status, 0);
 	}
-	
+	/*int fd[2], res, status;
+	pid_t pid2;
+	pipe(fd);
+	if(fork() == 0) {
+		close(fd[0]);
+		close(1);
+		dup(fd[1]);
+		close(fd[1]);
+		execvp(prePipe[0], prePipe);
+	} else {
+		close(fd[1]);
+		close(0);
+		dup(fd[0]);
+		close(fd[0]);
+		res = execvp(postPipe[0], postPipe);
+	}*/
 }
 
 
