@@ -1,0 +1,101 @@
+hungaud@ubuntu:~/Documents/cscd340/Lab5$ valgrind ./lab5
+==3414== Memcheck, a memory error detector
+==3414== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==3414== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==3414== Command: ./lab5
+==3414== 
+command?: ls
+There are 0 pipes 
+a.out		      cscd340Lab5.c	     Makefile  Untitled Document
+cscd340_f17_lab5.pdf  cscd340Lab5systematic  pipes     utils
+cscd340Lab5a.c	      lab5		     process
+cscd340Lab5a.o	      lab5a		     tokenize
+command?: ls -l
+There are 0 pipes 
+total 256
+-rwxrw-rw- 1 hungaud hungaud   8616 Oct  9 12:31 a.out
+-rwxrw-rw- 1 hungaud hungaud 179659 Oct  9 12:31 cscd340_f17_lab5.pdf
+-rwxrw-rw- 1 hungaud hungaud    521 Oct  9 12:31 cscd340Lab5a.c
+-rwxrw-rw- 1 hungaud hungaud   1520 Oct  9 12:31 cscd340Lab5a.o
+-rwxrw-rw- 1 hungaud hungaud    857 Oct  9 12:31 cscd340Lab5.c
+-rwxrw-rw- 1 hungaud hungaud   2021 Oct  9 18:31 cscd340Lab5systematic
+-rwxrwxr-x 1 hungaud hungaud  16648 Oct  9 18:23 lab5
+-rwxrw-rw- 1 hungaud hungaud   8976 Oct  9 12:31 lab5a
+-rwxrw-rw- 1 hungaud hungaud    641 Oct  9 12:31 Makefile
+drwxrwxrwx 2 hungaud hungaud   4096 Oct  9 18:23 pipes
+drwxrwxrwx 2 hungaud hungaud   4096 Oct  9 17:55 process
+drwxrwxrwx 2 hungaud hungaud   4096 Oct  9 12:31 tokenize
+-rw-rw-r-- 1 hungaud hungaud      0 Oct  9 18:32 Untitled Document
+drwxrwxrwx 2 hungaud hungaud   4096 Oct  9 12:31 utils
+command?: ls -l | wc -w
+There is 1 pipe 
+pre pipe command: ls -l  
+post pipe command: wc -w 
+129
+command?: ls -l | pws
+There is 1 pipe 
+pre pipe command: ls -l  
+post pipe command: pws 
+Command not found: pws 
+==3419== 
+==3419== HEAP SUMMARY:
+==3419==     in use at exit: 50 bytes in 5 blocks
+==3419==   total heap usage: 22 allocs, 17 frees, 2,259 bytes allocated
+==3419== 
+==3419== LEAK SUMMARY:
+==3419==    definitely lost: 0 bytes in 0 blocks
+==3419==    indirectly lost: 0 bytes in 0 blocks
+==3419==      possibly lost: 0 bytes in 0 blocks
+==3419==    still reachable: 50 bytes in 5 blocks
+==3419==         suppressed: 0 bytes in 0 blocks
+==3419== Rerun with --leak-check=full to see details of leaked memory
+==3419== 
+==3419== For counts of detected and suppressed errors, rerun with: -v
+==3419== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+command?: pws | wc -w
+There is 1 pipe 
+pre pipe command: pws  
+post pipe command: wc -w 
+==3422== 
+==3422== HEAP SUMMARY:
+==3422==     in use at exit: 50 bytes in 5 blocks
+==3422==   total heap usage: 29 allocs, 24 frees, 2,333 bytes allocated
+==3422== 
+==3422== LEAK SUMMARY:
+==3422==    definitely lost: 0 bytes in 0 blocks
+==3422==    indirectly lost: 0 bytes in 0 blocks
+==3422==      possibly lost: 0 bytes in 0 blocks
+==3422==    still reachable: 50 bytes in 5 blocks
+==3422==         suppressed: 0 bytes in 0 blocks
+==3422== Rerun with --leak-check=full to see details of leaked memory
+==3422== 
+==3422== For counts of detected and suppressed errors, rerun with: -v
+==3422== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+Command not found: pws
+==3421== 
+==3421== HEAP SUMMARY:
+==3421==     in use at exit: 50 bytes in 5 blocks
+==3421==   total heap usage: 29 allocs, 24 frees, 2,333 bytes allocated
+==3421== 
+==3421== LEAK SUMMARY:
+==3421==    definitely lost: 0 bytes in 0 blocks
+==3421==    indirectly lost: 0 bytes in 0 blocks
+==3421==      possibly lost: 0 bytes in 0 blocks
+==3421==    still reachable: 50 bytes in 5 blocks
+==3421==         suppressed: 0 bytes in 0 blocks
+==3421== Rerun with --leak-check=full to see details of leaked memory
+==3421== 
+==3421== For counts of detected and suppressed errors, rerun with: -v
+==3421== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+command?: exit
+==3414== 
+==3414== HEAP SUMMARY:
+==3414==     in use at exit: 0 bytes in 0 blocks
+==3414==   total heap usage: 29 allocs, 29 frees, 2,333 bytes allocated
+==3414== 
+==3414== All heap blocks were freed -- no leaks are possible
+==3414== 
+==3414== For counts of detected and suppressed errors, rerun with: -v
+==3414== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+hungaud@ubuntu:~/Documents/cscd340/Lab5$ 
+

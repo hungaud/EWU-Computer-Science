@@ -1,0 +1,8 @@
+HISTCOUNT=10
+HISTFILECOUNT=100
+
+Alias LA="ls -a"
+Alias cl="clear"
+Alias hi="history"
+
+PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
