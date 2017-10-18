@@ -203,8 +203,12 @@ void lab5Main () {
 			else if (strstr(s, "PATH=$PATH:") != NULL) {
 				paths = (char *)calloc(strlen(s) + 1, sizeof(char));
 				strcpy(paths, s);
+				strcpy(pathString, paths);
 				putenv(paths);
 				free(paths);
+			}
+			else if (strcmp(s, "$PATH") == 0) {
+				printf("%s \n", pathString);
 			}
 			else
 			{	
@@ -287,7 +291,6 @@ void printHistoryFile() {
 	}
 	fclose(fp);
 }
-
 
 
 
