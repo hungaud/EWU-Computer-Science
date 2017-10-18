@@ -1,7 +1,7 @@
 CC=gcc
 
-lab6:	main.c ./tokenize/makeArgs.o ./utils/myUtils.o ./process/process.o ./pipes/pipes.o ./path/path.o ./history/history.o ./linkedlist/linkedList.o ./linkedlist/listUtils.o ./cd/cd.o ./alias/alias.o
-	gcc -g main.c ./tokenize/makeArgs.o ./utils/myUtils.o ./process/process.o ./pipes/pipes.o ./path/path.o ./history/history.o ./linkedlist/linkedList.o ./linkedlist/listUtils.o ./cd/cd.o ./alias/alias.o -o lab6
+lab6:	main.c ./tokenize/makeArgs.o ./utils/myUtils.o ./process/process.o ./pipes/pipes.o ./path/path.o ./history/history.o ./linkedlist/linkedList.o ./linkedlist/listUtils.o ./cd/cd.o ./alias/alias.o ./redirect/redirect.o
+	gcc -g main.c ./tokenize/makeArgs.o ./utils/myUtils.o ./process/process.o ./pipes/pipes.o ./path/path.o ./history/history.o ./linkedlist/linkedList.o ./linkedlist/listUtils.o ./cd/cd.o ./alias/alias.o ./redirect/redirect.o -o lab6
 
 makeArgs.o:	./tokenize/makeArgs.c ./tokenize/makeArgs.h
 	gcc -g -c ./tokenize/makeArgs.c
@@ -33,6 +33,9 @@ cd.o:	./cd/cd.c ./cd/cd.h
 alias.o:	./alias/alias.c ./alias/alias.h
 	gcc -g -c ./alias/alias.c
 
+redirect.o:	./redirect/redirect.c ./redirect/redirect.h
+	gcc -g -c ./redirect/redirect.c
+
 clean:
 	rm ./pipes/pipes.o	
 	rm ./utils/myUtils.o
@@ -44,5 +47,6 @@ clean:
 	rm ./linkedlist/listUtils.o
 	rm ./cd/cd.o
 	rm ./alias/alias.o
+	rm ./redirect/redirect.o
 	rm lab6
 

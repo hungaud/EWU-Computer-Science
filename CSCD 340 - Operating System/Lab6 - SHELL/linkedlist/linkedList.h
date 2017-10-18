@@ -64,7 +64,7 @@ LinkedList * linkedList();
 
 Node * getLast(LinkedList * theList);
 Node * getSecondLast(LinkedList * theList);
-
+int checkContains(LinkedList * theList, Node * node, int (*compare)(const void *, const void *));
 
 
 /**

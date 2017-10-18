@@ -86,10 +86,10 @@ void removeItem(LinkedList * theList, Node * nn, void (*removeData)(void *), int
             printf("Item not found \n");
          } else if (compare(curr->data, nn->data) == 0) {
             prev->next = curr->next;
-	    curr->prev = prev;
+	    	curr->prev = prev;
             removeData(curr->data);
             theList->size = theList->size - 1;
-	    free(curr);
+	    	free(curr);
             curr = NULL;
 
          }     
@@ -179,6 +179,25 @@ Node * getSecondLast(LinkedList * theList) {
 		return temp->prev;
 	}
 }
+
+int checkContains(LinkedList * theList, Node * nn, int (*compare)(const void *, const void *)) {
+	if(theList->size == 0) {
+		printf("\n linkedList was empty when checking if contains \n");
+		return 0;
+	}
+
+	Node * temp = theList->head->next;
+	while(temp != NULL) {
+		if(compare(temp->data, nn->data) == 0) {
+			return 1;
+		}
+		temp = temp->next;
+		
+	}
+	return 0;
+
+}
+
 
 void clearList(LinkedList * theList, void (*removeData)(void *)) {
    if(theList != NULL || theList->size > 0) {

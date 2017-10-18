@@ -37,7 +37,6 @@ void buildTypeAlias(char * s) {
 		printf("Attempted to build alias, but string passed in is NULL \n");
 		exit(-99);
 	}
-	printf(" %s hereherehere \n", s);
 	char temp[100], * token, * save;
 	strcpy(temp, s);
 	Alias * al = alias();
