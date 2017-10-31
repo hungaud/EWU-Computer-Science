@@ -160,7 +160,7 @@ void lab5Main () {
 	char **argv = NULL, s[1000];
   	int preCount = 0, postCount = 0;
   	char ** prePipe = NULL, ** postPipe = NULL;
-  	char ** preRedirect = NULL, ** postRedirect = NULL;
+  	char ** redirect;
   	char temp[1000];
  	printf("command?: %s$ ", currentDir);
 	fgets(s, MAX, stdin);
@@ -179,15 +179,56 @@ void lab5Main () {
 			}
 			pipeCount = containsPipe(s);
 			redirectCount = containsRedirect(s);
+
+			// REDIRECT HERE. 
 			if(redirectCount > 0 ) {
-				printf(" %d redirect was found\n", redirectCount);
-				/*preRedirect = parsePreRedirect(s, &preCount, &inFD, &outFD);
-				postRedirect = parsePostRedirect(s, &postCount, &inFD, &outFD);
-				redirectIt(s, preRedirect, postRedirect, inFD, outFD);
-				clean(preCount, preRedirect);
-		    	clean(postCount, postRedirect); */
-			}
-			if(pipeCount > 0)
+				if(containsOut(s) == 1) {
+					redirectCount = makeargs(s, &redirect, ">");
+
+					if(redirectCount > 1) {
+						strip(redirect[0]);
+						strip(redirect[1]);
+						//printf("%s\n", redirect[1] + 1);
+						//printf("%s\n", redirect[0]);
+						FILE *redirectTo = fopen(redirect[1] + 1, "w");
+
+                   		if (redirectTo != NULL) {
+                      		argc = makeargs(redirect[0], &argv, " ");
+                        	if (argc != -1)
+                            	forkItFileOut(argv, fileno(redirectTo));
+
+                        	clean(argc, argv);
+                       		argv = NULL;
+
+                       		fclose(redirectTo);
+                    	}
+                	}
+                	clean(redirectCount, redirect);
+					
+				} else if (containsIn(s) == 1) {
+					redirectCount = makeargs(s, &redirect, "<");
+
+					if(redirectCount > 1) {
+						strip(redirect[0]);
+						strip(redirect[1]);
+						//printf("%s openign file \n", redirect[1]);
+						FILE *redirectTo = fopen(redirect[1] + 1, "r");
+
+                   		if (redirectTo != NULL) {
+                      		argc = makeargs(redirect[0], &argv, " ");
+                        	if (argc != -1)
+                            	forkItFileIn(argv, fileno(redirectTo));
+
+                        	clean(argc, argv);
+                       		argv = NULL;
+
+                       		fclose(redirectTo);
+                    	}
+                	}
+                	clean(redirectCount, redirect);
+					
+				}
+			} else if(pipeCount > 0)
 			{
 				prePipe = parsePrePipe(s, &preCount);
 				postPipe = parsePostPipe(s, &postCount);
@@ -219,7 +260,7 @@ void lab5Main () {
 					char * ali;
 					char * saved;
 					ali = strtok_r(argv[1], "=", &saved);
-					printf("%s what ali is \n", ali);
+					//printf("%s what ali is \n", ali);
 					Node * node = buildNode_Type(aliasWithShort(ali));
 					if(checkContains(aliasList, node, compareAlias)) {
 						removeItem(aliasList, node, cleanTypeAlias, compareAlias);

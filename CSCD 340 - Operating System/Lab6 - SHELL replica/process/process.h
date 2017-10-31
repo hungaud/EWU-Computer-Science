@@ -7,4 +7,9 @@
 
 void forkIt(char ** argv);
 
+void forkItFileOut(char ** argv, int directTo);
+void forkItFileIn(char ** argv, int directTo);
+
+
+
 #endif

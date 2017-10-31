@@ -8,11 +8,11 @@ int containsPipe(char *s) {
 			pipe++;
 		}
 	}
-	if(pipe == 1) {
+	/*if(pipe == 1) {
 		printf("There is %d pipe \n", pipe);
 	} else {
 		printf("There are %d pipes \n", pipe);
-	}
+	}*/
 	return pipe;
 }
 
@@ -24,7 +24,7 @@ char ** parsePrePipe(char *s, int * preCount) {
 	char * token = strtok_r(temp, "|", &save);
 	strip(token);
 	* preCount = makeargs(token, &pre, " ");
-	printf("pre pipe command: %s \n", token);
+	//printf("pre pipe command: %s \n", token);
 	free(temp);
 	temp = NULL;
 	return pre;
@@ -40,7 +40,7 @@ char ** parsePostPipe(char *s, int * postCount) {
 	token = strtok_r(NULL, "|", &save);
 	strip(token);
 	* postCount = makeargs(token, &post, " ");	
-	printf("post pipe command: %s \n", token + 1);
+	//printf("post pipe command: %s \n", token + 1);
 	free(temp);
 	temp = NULL;
 	return post;

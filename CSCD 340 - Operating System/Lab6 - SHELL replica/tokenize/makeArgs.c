@@ -28,7 +28,6 @@ int makeargs(char *s, char *** argv, const char * delimeter) {
         count++;
         token = strtok_r(NULL, delimeter, &save);
     }
-		printf(" %d  \n", count);
     if(count == 0) { 
         return -1;
     }

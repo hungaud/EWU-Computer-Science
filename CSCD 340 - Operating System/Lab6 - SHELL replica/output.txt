@@ -1,0 +1,17 @@
+total 108
+drwxrwxrwx 2 hungaud hungaud  4096 Oct 18 13:27 alias
+-rwxrw-rw- 1 hungaud hungaud  8616 Oct 18 03:17 a.out
+drwxrwxrwx 2 hungaud hungaud  4096 Oct 18 13:27 cd
+-rwxrw-rw- 1 hungaud hungaud  7672 Oct 18 13:26 cscd340Lab6.c
+drwxrwxrwx 2 hungaud hungaud  4096 Oct 18 13:27 history
+-rwxrwxr-x 1 hungaud hungaud 39456 Oct 18 15:32 lab6
+drwxrwxrwx 2 hungaud hungaud  4096 Oct 18 13:27 linkedlist
+-rwxrw-rw- 1 hungaud hungaud  1643 Oct 18 15:26 Makefile
+-rw-rw-r-- 1 hungaud hungaud     0 Oct 18 15:40 output.txt
+drwxrwxrwx 2 hungaud hungaud  4096 Oct 18 13:27 path
+drwxrwxrwx 2 hungaud hungaud  4096 Oct 18 15:32 pipes
+drwxrwxrwx 2 hungaud hungaud  4096 Oct 18 15:27 process
+drwxrwxrwx 2 hungaud hungaud  4096 Oct 18 13:27 redirect
+drwxrwxrwx 2 hungaud hungaud  4096 Oct 18 15:32 tokenize
+drwxrwxrwx 2 hungaud hungaud  4096 Oct 18 13:27 utils
+drwxrwxrwx 2 hungaud hungaud  4096 Oct 18 13:27 words
