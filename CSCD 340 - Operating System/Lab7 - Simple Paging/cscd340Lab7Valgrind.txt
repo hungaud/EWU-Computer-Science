@@ -1,0 +1,120 @@
+ make
+gcc -g ./utils/myUtils.o ./utils/fileUtil.o main.c -o lab7 -lm
+hungaud@ubuntu:~/Documents/cscd340/Lab7$ valgrind ./lab7
+==21654== Memcheck, a memory error detector
+==21654== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==21654== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==21654== Command: ./lab7
+==21654== 
+1048576 256 65536 
+Please enter the name of the input file: paging-addresses.txt
+Virtual Address: 16916 
+Page Number: 66 
+Page Frame Number: 0 
+Physical Address: 20 
+=========================
+Virtual Address: 62493 
+Page Number: 244 
+Page Frame Number: 1 
+Physical Address: 285 
+=========================
+Virtual Address: 16915 
+Page Number: 66 
+Page Frame Number: 0 
+Physical Address: 19 
+=========================
+Virtual Address: 30198 
+Page Number: 117 
+Page Frame Number: 2 
+Physical Address: 758 
+=========================
+Virtual Address: 53683 
+Page Number: 209 
+Page Frame Number: 3 
+Physical Address: 947 
+=========================
+Virtual Address: 40185 
+Page Number: 156 
+Page Frame Number: 4 
+Physical Address: 1273 
+=========================
+Virtual Address: 28781 
+Page Number: 112 
+Page Frame Number: 5 
+Physical Address: 1389 
+=========================
+Virtual Address: 24462 
+Page Number: 95 
+Page Frame Number: 6 
+Physical Address: 1678 
+=========================
+Virtual Address: 48399 
+Page Number: 189 
+Page Frame Number: 7 
+Physical Address: 1807 
+=========================
+Virtual Address: 64815 
+Page Number: 253 
+Page Frame Number: 8 
+Physical Address: 2095 
+=========================
+Virtual Address: 18295 
+Page Number: 71 
+Page Frame Number: 9 
+Physical Address: 2423 
+=========================
+Virtual Address: 12218 
+Page Number: 47 
+Page Frame Number: 10 
+Physical Address: 2746 
+=========================
+Virtual Address: 22760 
+Page Number: 88 
+Page Frame Number: 11 
+Physical Address: 3048 
+=========================
+Virtual Address: 57982 
+Page Number: 226 
+Page Frame Number: 12 
+Physical Address: 3198 
+=========================
+Virtual Address: 27966 
+Page Number: 109 
+Page Frame Number: 13 
+Physical Address: 3390 
+=========================
+Virtual Address: 54894 
+Page Number: 214 
+Page Frame Number: 14 
+Physical Address: 3694 
+=========================
+Virtual Address: 38929 
+Page Number: 152 
+Page Frame Number: 15 
+Physical Address: 3857 
+=========================
+Virtual Address: 32865 
+Page Number: 128 
+Page Frame Number: 16 
+Physical Address: 4193 
+=========================
+Virtual Address: 64243 
+Page Number: 250 
+Page Frame Number: 17 
+Physical Address: 4595 
+=========================
+Virtual Address: 2315 
+Page Number: 9 
+Page Frame Number: 18 
+Physical Address: 4619 
+=========================
+==21654== 
+==21654== HEAP SUMMARY:
+==21654==     in use at exit: 0 bytes in 0 blocks
+==21654==   total heap usage: 8 allocs, 8 frees, 8,662,096 bytes allocated
+==21654== 
+==21654== All heap blocks were freed -- no leaks are possible
+==21654== 
+==21654== For counts of detected and suppressed errors, rerun with: -v
+==21654== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
