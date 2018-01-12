@@ -11,7 +11,8 @@
 public class Tester {
 
    public static void main(String args[]) {
-      int array[] = {1,  3,  5,  7,  9, 14, 16, 19};
+      int array[] = {1,  3,  5,  7,  9, 14, 15, 16, 17, 19};
+      //int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
       int index;
       System.out.println("Using an input array A = [ 1,  3,  5,  7,  9, 14, 16, 19 ]");
 
@@ -37,7 +38,7 @@ public class Tester {
    public static int quickSearch(int array[], int value) {
       if(value > array[array.length -1]) {
          return -1;
-      } else if (value < array[0]) {
+      } else if (value <= array[0]) {
          return 0;
       }
       return binarySearch(array, value, array.length, array.length /2);
@@ -58,7 +59,7 @@ public class Tester {
          if (value > array[index]) {
             return binarySearch(array, value, max, (index + max) / 2);
          } else {
-            return binarySearch(array, value, index, (max - index)/2 + index);
+            return binarySearch(array, value, index, index - (max - index)/2 );
          }
       }
    }
