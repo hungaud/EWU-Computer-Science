@@ -58,7 +58,7 @@ public class Tester {
          if (value > array[index]) {
             return binarySearch(array, value, max, (index + max) / 2);
          } else {
-            return binarySearch(array, value, index, index / 2);
+            return binarySearch(array, value, index, (max - index)/2 + index);
          }
       }
    }
