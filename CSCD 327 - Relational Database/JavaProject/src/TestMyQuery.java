@@ -71,7 +71,7 @@ public class TestMyQuery {
       String mydatabase = "w18auduong_crime";
       String url = "jdbc:mysql://" + serverName + "/" + mydatabase; // a JDBC url
       String username = "w18auduong"; //replace with actual data
-      String password = "nashty"; //replace with actual data
+      String password = ""; //replace with actual data
       connection = DriverManager.getConnection(url, username, password);
       return connection;
    }
