@@ -1,0 +1,80 @@
+//Hung Auduong
+//ALU Assignment
+
+module Testbed();
+  reg I0, I1, a, b;
+  wire out;
+
+  ALU alu(I0, I1, a, b, out);
+
+  initial
+  begin
+    I0 = 0;    I1 = 0;    a = 0; b = 0;
+	$display ("AND");
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 0;    I1 = 0;    a = 0; b = 1;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 0;    I1 = 0;    a = 1; b = 0;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 0;    I1 = 0;    a = 1; b = 1;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+
+	$display ("OR");
+
+    I0 = 0;    I1 = 1;    a = 0; b = 0;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 0;    I1 = 1;    a = 0; b = 1;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 0;    I1 = 1;    a = 1; b = 0;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 0;    I1 = 1;    a = 1; b = 1;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+
+		$display ("XOR");
+
+    I0 = 1;    I1 = 0;    a = 0; b = 0;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 1;    I1 = 0;    a = 0; b = 1;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 1;    I1 = 0;    a = 1; b = 0;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 1;    I1 = 0;    a = 1; b = 1;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+
+		$display ("NOT");
+
+    I0 = 1;    I1 = 1;    a = 0; b = 0;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 1;    I1 = 1;    a = 0; b = 1;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 1;    I1 = 1;    a = 1; b = 0;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+    I0 = 1;    I1 = 1;    a = 1; b = 1;
+    #1 $display("I0:%b I1:%b a:%b b:%b out:%b", I0, I1, a, b, out);
+
+    $finish;
+  end
+endmodule
+
+
+module ALU(I0, I1, a, b, out);
+  input I0, I1, a, b;
+  output out;
+
+  assign W0 = I0 & I1;
+  assign W1 = I0 & ~I1;
+  assign W2 = ~I0 & I1;
+  assign W3 = ~I0 & ~I1;
+
+  assign T0 = a & b;
+  assign T1 = a | b;
+  assign T2 = a ^ b;
+  assign T3 = ~a;
+
+  assign o0 = T0 & W3;
+  assign o1 = T1 & W2;
+  assign o2 = T2 & W1;
+  assign o3 = T3 & W0;
+
+  assign out = o0 | o1 | o2 | o3;
+endmodule
