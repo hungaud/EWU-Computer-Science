@@ -1,0 +1,39 @@
+Regular Expressions
+
+1. Social Security
+Passed Tests:
+	123456789
+	123-45-6789
+	123 45 6789
+Failed Tests: 
+	12345678910
+	1234-123-456
+
+2. US Phone Number
+Passed Tests:
+	(509)0001111
+	(509)000-2222
+	(509)-000-3333
+	(509)-0003333
+	5090004444
+	509-000-5555
+Failed Tests: 
+	(123-999-0000
+	1239990000000
+	123)-99995555
+	(123)
+
+3. E-Mail Address
+Passed Tests:
+Failed Tests: 
+	abc1@ewu.edu
+	a.bc2@ewu.edu
+	a-bc3@ewu.edu
+	a_bc4@ewu.edu
+	5@ewu.edu
+	test.123_abc@eagles.ewu.edu
+	abc @gmail.com
+	abc@gmail*com
+	abc.gmail.com
+	abc&gmail.com
+	abc@gmail&net
