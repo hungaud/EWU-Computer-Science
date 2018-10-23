@@ -132,13 +132,13 @@ public class Regex {
       }
       return false;
    }
-
+//
    public static boolean isValidHouseAddress(String s) {
-      return true;
+      return s.matches("^((\\d)+\\s[a-zA-Z0-9 ]+(rd|st|blvd|ave|road|street|boulevard|avenue)+.?)$");
    }
 
    public static boolean isValidCityStateZip(String s) {
-      return true;
+      return s.matches("^()$");
    }
 
    public static boolean isValidMilitaryTime(String s) {

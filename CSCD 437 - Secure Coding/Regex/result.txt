@@ -72,4 +72,12 @@ Failed Tests:
 
 6. House address
 Passed Tests:
+	999 abc ave.
+	999 abc street
+	999 e fair oaks ave
+	999 abc cba street
+	999 47th ave
 Failed Tests: 
+	123 doesntwork no no no
+	123 $abc weirdground
+	123, 123, 123
