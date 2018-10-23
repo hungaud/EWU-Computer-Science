@@ -25,15 +25,51 @@ Failed Tests:
 
 3. E-Mail Address
 Passed Tests:
-Failed Tests: 
+	simple@example.com
 	abc1@ewu.edu
 	a.bc2@ewu.edu
 	a-bc3@ewu.edu
 	a_bc4@ewu.edu
-	5@ewu.edu
 	test.123_abc@eagles.ewu.edu
+Failed Tests: 
+	5@ewu...edu
 	abc @gmail.com
 	abc@gmail*com
 	abc.gmail.com
 	abc&gmail.com
 	abc@gmail&net
+	John..Doe@example.com
+
+4. Name on Class Roster
+Passed Tests:
+	auduong, hung, t
+	auduong, hung, t.
+	auduong, hung
+	auduong, hung, t. t.
+Failed Tests: 
+	auduong, hung, t.t.
+	auduong, hung, abc bac abc
+	auduong-auduong, hung, bac
+	lastname-la; first
+	lastname, firstname$
+	abc, $$$$
+	abc
+	bac,
+	bac t.
+
+5. Date in MM-DD-YYYY
+Passed Tests:
+	11/11/2000
+	11-11-2000
+	12-12-1000
+	02-29-2000
+	02-28-2001
+Failed Tests: 
+	02-29-2001
+	33-333-222
+	333*333^11
+	12-34-56
+
+6. House address
+Passed Tests:
+Failed Tests: 

@@ -50,17 +50,44 @@ public class Regex {
                   break;
                case("c"):
                   (isValidEmail(value) ? valid : failed).add(value);
+                  break;
+               case("d"):
+                  (isValidRosterName(value) ? valid : failed).add(value);
+                  break;
+               case("e"):
+                  (isValidDate(value) ? valid : failed).add(value);
+                  break;
+               case("f"):
+                  (isValidHouseAddress(value) ? valid : failed).add(value);
+                  break;
+               case("g"):
+                  (isValidCityStateZip(value) ? valid : failed).add(value);
+                  break;
+               case("h"):
+                  (isValidMilitaryTime(value) ? valid : failed).add(value);
+                  break;
+               case("i"):
+                  (isValidUSCurrency(value) ? valid : failed).add(value);
+                  break;
+               case("j"):
+                  (isValidURL(value) ? valid : failed).add(value);
+                  break;
+               case("k"):
+                  (isValidPassword(value) ? valid : failed).add(value);
+                  break;
+               case("l"):
+                  (isValidOddLengthEndingIon(value) ? valid : failed).add(value);
+                  break;
             }
          }
          index++;
-         writeResult(valid, failed, writer);
+         writeResultToFile(valid, failed, writer);
          valid.clear();
          failed.clear();
       }
    }
 
-
-   public static void writeResult(ArrayList<String> valid, ArrayList<String> failed,
+   public static void writeResultToFile(ArrayList<String> valid, ArrayList<String> failed,
                                   PrintStream writer) {
       writer.println("Passed Tests:");
       for(String s : valid) {
@@ -81,6 +108,56 @@ public class Regex {
    }
 
    public static boolean isValidEmail(String s) {
-      return s.matches("^([a-zA-Z\\-])$");
+      return s.matches("^((?!.*\\.{2,})[a-zA-Z0-9!#$%&'*+/=?^_`{|}~;\\-.]+@[a-zA-Z0-9\\-][.a-z]+)$");
+   }
+
+   public static boolean isValidRosterName(String s) {
+      return s.matches("^(([a-zA-Z'\\-]+),\\s([a-zA-Z\\-]+)[,]*(\\s[\\w][.]*)*)$");
+   }
+
+   public static boolean isValidDate(String s) {
+      boolean validFormat = s.matches("^(\\d{2}[/\\-]\\d{2}[/\\-]\\d{4})$");
+      if(validFormat) {
+         String[] date = s.split("[/\\-]");
+         int month = Integer.parseInt(date[0]);
+         int day = Integer.parseInt(date[1]);
+         int year = Integer.parseInt(date[2]);
+         try {
+            GregorianCalendar calendar = new GregorianCalendar();
+            calendar.setLenient(false);
+            calendar.set(year,  month - 1, day);
+            calendar.getTime();
+            return true;
+         } catch(Exception e) {}
+      }
+      return false;
+   }
+
+   public static boolean isValidHouseAddress(String s) {
+      return true;
+   }
+
+   public static boolean isValidCityStateZip(String s) {
+      return true;
+   }
+
+   public static boolean isValidMilitaryTime(String s) {
+      return true;
+   }
+
+   public static boolean isValidUSCurrency(String s) {
+      return true;
+   }
+
+   public static boolean isValidURL(String s) {
+      return true;
+   }
+
+   public static boolean isValidPassword(String s) {
+      return true;
+   }
+
+   public static boolean isValidOddLengthEndingIon(String s) {
+      return (s.length() % 2 == 1) && s.matches("^[a-zA-Z]*(ion)$");
    }
 }
