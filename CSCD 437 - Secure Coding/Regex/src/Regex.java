@@ -17,8 +17,8 @@ public class Regex {
    public static void main(String args[]) throws FileNotFoundException {
       HashMap<String, ArrayList<String>> input = new HashMap<>();
       stateAbbrev = new HashSet<>();
-      initializeInputText(input);
-      testFromFile(input);
+      //initializeInputText(input);
+      //testFromFile(input);
       promptUserInputs();
    }
 
@@ -56,7 +56,7 @@ public class Regex {
       String prompt ="User Input Test: \na\tSocial Security Number\nb\tUS Phone number\nc\tE-mail address\n" +
             "d\tName on a class roster, assuming one or more middle initials - Last name, First name, MI\n" +
             "e\tDate in MM-DD-YYYY format\n" +
-            "f\tHouse address - Street number, street name, abbreviation for road, street, boulevard or avenue" +
+            "f\tHouse address - Street number, street name, abbreviation for road, street, boulevard or avenue\n" +
             "g\tCity followed by state followed by zip as it should appear on a letter\n" +
             "h\tMilitary time, including seconds\ni\tUS Currency down to the penny (ex: $123,456,789.23)\n" +
             "j\tURL, including http:// (upper and lower case should be accepted)\n" +
@@ -67,12 +67,14 @@ public class Regex {
       while(!option.equals("q")) {
          input = new HashMap<>();
          System.out.println(prompt + "\n");
-         option = sc.next();
-         if(option.equals("q")) break;
-         response = sc.next();
-         input.put(option, new ArrayList<>());
-         input.get(option).add(response);
-         mapToTestCase(input, null);
+         try {
+            option = sc.next();
+            if (option.equals("q")) break;
+            response = sc.next();
+            input.put(option, new ArrayList<>());
+            input.get(option).add(response);
+            mapToTestCase(input, null);
+         } catch (Exception e) {}
       }
    }
 
@@ -160,7 +162,7 @@ public class Regex {
       }
    }
    public static void printResultToConsole(ArrayList<String> valid, ArrayList<String> failed) {
-      System.out.println(failed.isEmpty() ? "Valid Response\n" : "Failed Response\n");
+      System.out.println(failed.isEmpty() ? valid.get(0) + ": Valid Response\n" : failed.get(0) + ": Failed Response\n");
    }
 
    public static boolean isValidSocialSecurityNumber(String s) {

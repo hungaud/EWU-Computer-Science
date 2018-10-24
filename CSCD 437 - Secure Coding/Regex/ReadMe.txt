@@ -3,14 +3,28 @@
 // Professor Capual
 
 How To Run:
-The program will first ask for an input file, this is the tester file. Tester file should be located in Regex folder.
-sibling directories include src, out, and .idea.
-The output for the tester file will be located in a result.txt. result.txt will output for each section to show
-which cases passed and which cases failed.
-User input for testing a file will not error check if the file exist or not.
-My original test file is named "test.txt"
-Check CapturedOutput.txt for run through.
-To run the program, it's set to run with Intellij.
+Toms Spec:
+    The program will run normally with Intellij as the user test inputs. To run with a redirect, it will take the input
+    file and test each case as a "User" then output to a specified output file.
+    tester file must end in a q. What I did to run the program in powershell was
+    javac Regex.java
+    Get-Content test.txt | java Regex > output.txt
+Easier To read:
+    For a reader friendly output, (like below @ line starting at 75), uncomment line 20, 21.
+    method:
+          //initializeInputText(input);
+          //testFromFile(input);
+    Those two will able the program to read through an user input file and test each case, then outputting
+    it to result.txt
+    no cmd line for this method.
+
+Included Files:
+test.txt: my own default test
+StateAbbreviations.txt
+result.txt: output file for testing my default file
+/src
+    output.txt: ambiguous output file
+    test.txt: ambiguous  test file
 
 Pattern for the input is:
 a
