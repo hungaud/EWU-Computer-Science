@@ -1,65 +1,234 @@
 a
 123456789
+a
 123-45-6789
+a
 123 45 6789
+a
 12345678910
+a
 1234-123-456
 b
 (509)0001111
+b
 (509)000-2222
+b
 (509)-000-3333
+b
 (509)-0003333
+b
 5090004444
+b
 509-000-5555
+b
 (123-999-0000
+b
 1239990000000
+b
 123)-99995555
+b
 (123)
 c
 simple@example.com
+c
 abc1@ewu.edu
+c
 a.bc2@ewu.edu
+c
 a-bc3@ewu.edu
+c
 a_bc4@ewu.edu
+c
 test.123_abc@eagles.ewu.edu
+c
 5@ewu...edu
+c
 abc @gmail.com
+c
 abc@gmail*com
+c
 abc.gmail.com
+c
 abc&gmail.com
+c
 abc@gmail&net
+c
 John..Doe@example.com
 d
 auduong, hung, t
+d
 auduong, hung, t.
+d
 auduong, hung
+d
 auduong, hung, t. t.
+d
 auduong, hung, t.t.
+d
 auduong, hung, abc bac abc
+d
 auduong-auduong, hung, bac
+d
 lastname-la; first
+d
 lastname, firstname$
+d
 abc, $$$$
+d
 abc
+d
 bac,
+d
 bac t.
 e
 11/11/2000
+e
 11-11-2000
+e
 12-12-1000
+e
 02-29-2000
+e
 02-28-2001
+e
 02-29-2001
+e
 33-333-222
+e
 333*333^11
+e
 12-34-56
 f
 999 abc ave.
+f
 999 abc street
+f
 999 e fair oaks ave
+f
 999 abc cba street
+f
 999 47th ave
+f
 123 doesntwork no no no
+f
 123 $abc weirdground
+f
 123, 123, 123
 g
+spokane, wa 12345
+g
+spokane, wa 12345
+g
+spokane, wa 12345-1234
+g
+spk-wa
+g
+spokane wa 123
+g
+spokane abc 12345
+g
+spokane wa 123-123
+g
+spokane, wa 12345!-#$%^&
+h
+12:34:52
+h
+24:00:00
+h
+23:59:59
+h
+15:15:15
+h
+00:00:00
+h
+23:59:60
+h
+23:60:59
+h
+24:01:01
+h
+25:1:1
+h
+-1:00:00
+h
+11:22:3
+h
+99:59:59
+i
+$123.98
+i
+$1,123.99
+i
+$22,123.99
+i
+$333,123.99
+i
+$123,123,123,123.00
+i
+$1,12.00
+i
+1,123.00
+i
+$123
+i
+$22,12,00
+i
+$123,77,123.00
+j
+http://google.tv
+j
+https://google.net
+j
+https://www.google.com/
+j
+https://www.google.com
+j
+http://hungaud.com/rentaboo/ItemPage.aspx?ID=1002
+j
+http://goo-gle.com
+j
+https://google.co.uk/
+j
+https://google.video
+j
+abc://bing.com
+j
+http:/bing.com
+j
+https//bing.com
+j
+http://bing.
+j
+http://bing
+k
+aBcDeFgH1!
+k
+aBcDeFgH987!#$@%^%^$%&)*()*&()_#$@%
+k
+abCDefGHij.123
+k
+Dogcatrat'.?!"-():;8
+k
+aa
+k
+aaaBcDeFgH1!
+k
+ABCDEFGHIJKLMNOPQRSTUVWXYZ!!!123
+k
+abcdefghijk!!!123
+l
+ion
+l
+sealion
+l
+abcdeion
+l
+lions
+l
+ions
+l
+abion
+l
+-ion
+l
+00ion

@@ -81,3 +81,86 @@ Failed Tests:
 	123 doesntwork no no no
 	123 $abc weirdground
 	123, 123, 123
+
+7. City, State, Zip
+Passed Tests:
+	spokane, wa 12345
+	spokane, wa 12345
+	spokane, wa 12345-1234
+Failed Tests: 
+	spk-wa
+	spokane wa 123
+	spokane abc 12345
+	spokane wa 123-123
+	spokane, wa 12345!-#$%^&
+
+8. Military Time
+Passed Tests:
+	12:34:52
+	24:00:00
+	23:59:59
+	15:15:15
+	00:00:00
+Failed Tests: 
+	23:59:60
+	23:60:59
+	24:01:01
+	25:1:1
+	-1:00:00
+	11:22:3
+	99:59:59
+
+9. US Currency
+Passed Tests:
+	$123.98
+	$1,123.99
+	$22,123.99
+	$333,123.99
+	$123,123,123,123.00
+Failed Tests: 
+	$1,12.00
+	1,123.00
+	$123
+	$22,12,00
+	$123,77,123.00
+
+10. URL
+Passed Tests:
+	http://google.tv
+	https://google.net
+	https://www.google.com/
+	https://www.google.com
+	http://hungaud.com/rentaboo/ItemPage.aspx?ID=1002
+	http://goo-gle.com
+	https://google.co.uk/
+	https://google.video
+Failed Tests: 
+	abc://bing.com
+	http:/bing.com
+	https//bing.com
+	http://bing.
+	http://bing
+
+11. Password
+Passed Tests:
+	aBcDeFgH1!
+	aBcDeFgH987!#$@%^%^$%&)*()*&()_#$@%
+	abCDefGHij.123
+Failed Tests: 
+	Dogcatrat'.?!"-():;8
+	aa
+	aaaBcDeFgH1!
+	ABCDEFGHIJKLMNOPQRSTUVWXYZ!!!123
+	abcdefghijk!!!123
+
+12. Odd Numbers of Characters Ending in "ion"
+Passed Tests:
+	ion
+	sealion
+	abion
+Failed Tests: 
+	abcdeion
+	lions
+	ions
+	-ion
+	00ion
