@@ -1,3 +1,7 @@
+// Hung Auduong
+// CSCD 437
+// Professor Capual
+
 import java.io.*;
 import java.util.*;
 
@@ -18,9 +22,14 @@ public class Regex {
       promptUserInputs();
    }
 
+   // post: initializes the test cases by reading in an input file and storing the data.
+   //       also store all the state abbreviations.
    public static void initializeInputText(HashMap<String, ArrayList<String>> input) throws FileNotFoundException {
-      File file = new File("test.txt");
-      Scanner sc = new Scanner(file);String key = "a";
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Input file name: ");
+      File file = new File(sc.next());
+      sc = new Scanner(file);
+      String key = "a";
       while(sc.hasNextLine()) {
          String line = sc.nextLine();
          if(line.length() == 1 && line.matches("[a-l]")) {
@@ -38,6 +47,7 @@ public class Regex {
       }
    }
 
+   // post: prompt user menu and user inputs to replicate as if it was a input file test case
    public static void promptUserInputs() {
       HashMap<String, ArrayList<String>> input;
       String option = "", response = "";
@@ -66,15 +76,18 @@ public class Regex {
       }
    }
 
+   // post: test using the data stored from the input file.
    public static void testFromFile(HashMap<String, ArrayList<String>> input) throws FileNotFoundException {
       PrintStream writer = new PrintStream("result.txt");
-      System.out.println("Testing with: \"test.txt\"");
+      System.out.println("Testing with input file");
       writer.println("Regular Expressions");
       mapToTestCase(input, writer);
-      System.out.println("Finished Testing with: \"test.txt\".\n" +
+      System.out.println("Finished Testing with input text" +
             "The result should be in \"result.txt\"");
    }
 
+   // post: map the option that the user or input file and then mapped to the test. After the test,
+   //       it'll keep a track of all passed and failed cases and prints them accordingly
    private static void mapToTestCase(HashMap<String, ArrayList<String>> input, PrintStream writer) {
       ArrayList<String> valid = new ArrayList<>();
       ArrayList<String> failed = new ArrayList<>();
@@ -134,6 +147,7 @@ public class Regex {
       }
    }
 
+   // post: write the results to the file.
    public static void writeResultToFile(ArrayList<String> valid, ArrayList<String> failed,
                                         PrintStream writer) {
       writer.println("Passed Tests:");
@@ -146,7 +160,7 @@ public class Regex {
       }
    }
    public static void printResultToConsole(ArrayList<String> valid, ArrayList<String> failed) {
-      System.out.println(failed.isEmpty() ? "Valid Response" : "Failed Response");
+      System.out.println(failed.isEmpty() ? "Valid Response\n" : "Failed Response\n");
    }
 
    public static boolean isValidSocialSecurityNumber(String s) {
@@ -210,7 +224,7 @@ public class Regex {
    }
 
    public static boolean isValidPassword(String s) {
-      return s.matches("^((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\\W)(?!.*[a-z]{3,})[\\w\\W]{10,})$");
+      return s.matches("^((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\\W)(?!.*\\s)(?!.*[a-z]{3,})[\\w\\W]{10,})$");
    }
 
    public static boolean isValidOddLengthEndingIon(String s) {

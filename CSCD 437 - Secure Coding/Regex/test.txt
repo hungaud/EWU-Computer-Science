@@ -59,6 +59,8 @@ auduong, hung, t
 d
 auduong, hung, t.
 d
+auduong auduong, hung, t.
+d
 auduong, hung
 d
 auduong, hung, t. t.
@@ -214,6 +216,8 @@ k
 aaaBcDeFgH1!
 k
 ABCDEFGHIJKLMNOPQRSTUVWXYZ!!!123
+k
+abCDef GHij.123
 k
 abcdefghijk!!!123
 l

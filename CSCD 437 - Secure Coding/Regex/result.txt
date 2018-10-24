@@ -47,6 +47,7 @@ Passed Tests:
 	auduong, hung
 	auduong, hung, t. t.
 Failed Tests: 
+	auduong auduong, hung, t.
 	auduong, hung, t.t.
 	auduong, hung, abc bac abc
 	auduong-auduong, hung, bac
@@ -151,6 +152,7 @@ Failed Tests:
 	aa
 	aaaBcDeFgH1!
 	ABCDEFGHIJKLMNOPQRSTUVWXYZ!!!123
+	abCDef GHij.123
 	abcdefghijk!!!123
 
 12. Odd Numbers of Characters Ending in "ion"
