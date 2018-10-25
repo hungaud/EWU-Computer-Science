@@ -17,6 +17,7 @@ Easier To read:
     Those two will able the program to read through an user input file and test each case, then outputting
     it to result.txt
     no cmd line for this method.
+    I did this part because I misunderstood redirect.
 
 Included Files:
 test.txt: my own default test

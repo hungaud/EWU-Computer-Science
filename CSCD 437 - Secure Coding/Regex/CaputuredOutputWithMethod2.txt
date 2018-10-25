@@ -1,0 +1,168 @@
+Regular Expressions
+
+1. Social Security
+Passed Tests:
+	123456789
+	123-45-6789
+	123 45 6789
+Failed Tests:
+	12345678910
+	1234-123-456
+
+2. US Phone Number
+Passed Tests:
+	(509)0001111
+	(509)000-2222
+	(509)-000-3333
+	(509)-0003333
+	5090004444
+	509-000-5555
+Failed Tests:
+	(123-999-0000
+	1239990000000
+	123)-99995555
+	(123)
+
+3. E-Mail Address
+Passed Tests:
+	simple@example.com
+	abc1@ewu.edu
+	a.bc2@ewu.edu
+	a-bc3@ewu.edu
+	a_bc4@ewu.edu
+	test.123_abc@eagles.ewu.edu
+Failed Tests:
+	5@ewu...edu
+	abc @gmail.com
+	abc@gmail*com
+	abc.gmail.com
+	abc&gmail.com
+	abc@gmail&net
+	John..Doe@example.com
+
+4. Name on Class Roster
+Passed Tests:
+	auduong, hung, t
+	auduong, hung, t.
+	auduong, hung
+	auduong, hung, t. t.
+Failed Tests:
+	auduong auduong, hung, t.
+	auduong, hung, t.t.
+	auduong, hung, abc bac abc
+	auduong-auduong, hung, bac
+	lastname-la; first
+	lastname, firstname$
+	abc, $$$$
+	abc
+	bac,
+	bac t.
+
+5. Date in MM-DD-YYYY
+Passed Tests:
+	11/11/2000
+	11-11-2000
+	12-12-1000
+	02-29-2000
+	02-28-2001
+Failed Tests:
+	02-29-2001
+	33-333-222
+	333*333^11
+	12-34-56
+
+6. House address
+Passed Tests:
+	999 abc ave.
+	999 abc street
+	999 e fair oaks ave
+	999 abc cba street
+	999 47th ave
+Failed Tests:
+	123 doesntwork no no no
+	123 $abc weirdground
+	123, 123, 123
+
+7. City, State, Zip
+Passed Tests:
+	spokane, wa 12345
+	spokane, wa 12345
+	spokane, wa 12345-1234
+Failed Tests:
+	spk-wa
+	spokane wa 123
+	spokane abc 12345
+	spokane wa 123-123
+	spokane, wa 12345!-#$%^&
+
+8. Military Time
+Passed Tests:
+	12:34:52
+	24:00:00
+	23:59:59
+	15:15:15
+	00:00:00
+Failed Tests:
+	23:59:60
+	23:60:59
+	24:01:01
+	25:1:1
+	-1:00:00
+	11:22:3
+	99:59:59
+
+9. US Currency
+Passed Tests:
+	$123.98
+	$1,123.99
+	$22,123.99
+	$333,123.99
+	$123,123,123,123.00
+Failed Tests:
+	$1,12.00
+	1,123.00
+	$123
+	$22,12,00
+	$123,77,123.00
+
+10. URL
+Passed Tests:
+	http://google.tv
+	https://google.net
+	https://www.google.com/
+	https://www.google.com
+	http://hungaud.com/rentaboo/ItemPage.aspx?ID=1002
+	http://goo-gle.com
+	https://google.co.uk/
+	https://google.video
+Failed Tests:
+	abc://bing.com
+	http:/bing.com
+	https//bing.com
+	http://bing.
+	http://bing
+
+11. Password
+Passed Tests:
+	aBcDeFgH1!
+	aBcDeFgH987!#$@%^%^$%&)*()*&()_#$@%
+	abCDefGHij.123
+Failed Tests:
+	Dogcatrat'.?!"-():;8
+	aa
+	aaaBcDeFgH1!
+	ABCDEFGHIJKLMNOPQRSTUVWXYZ!!!123
+	abCDef GHij.123
+	abcdefghijk!!!123
+
+12. Odd Numbers of Characters Ending in "ion"
+Passed Tests:
+	ion
+	sealion
+	abion
+Failed Tests:
+	abcdeion
+	lions
+	ions
+	-ion
+	00ion

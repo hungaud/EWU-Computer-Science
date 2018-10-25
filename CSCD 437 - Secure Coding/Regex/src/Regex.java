@@ -17,6 +17,7 @@ public class Regex {
    public static void main(String args[]) throws FileNotFoundException {
       HashMap<String, ArrayList<String>> input = new HashMap<>();
       stateAbbrev = new HashSet<>();
+      initializeState();
       //initializeInputText(input);
       //testFromFile(input);
       promptUserInputs();
@@ -40,8 +41,11 @@ public class Regex {
             input.get(key).add(line);
          }
       }
-      file = new File("StateAbbreviations.txt");
-      sc = new Scanner(file);
+   }
+
+   public static void initializeState() throws FileNotFoundException {
+      File file = new File("StateAbbreviations.txt");
+      Scanner sc = new Scanner(file);
       while(sc.hasNextLine()) {
          stateAbbrev.add(sc.nextLine());
       }

@@ -1,0 +1,2370 @@
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+123456789: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+123-45-6789: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+123: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+12345678910: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+1234-123-456: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+(509)0001111: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+(509)000-2222: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+(509)-000-3333: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+(509)-0003333: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+5090004444: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+509-000-5555: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+(123-999-0000: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+1239990000000: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+123)-99995555: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+(123): Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+simple@example.com: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+abc1@ewu.edu: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+a.bc2@ewu.edu: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+a-bc3@ewu.edu: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+a_bc4@ewu.edu: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+test.123_abc@eagles.ewu.edu: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+5@ewu...edu: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+abc: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+auduong,: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+auduong,: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+auduong,: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+auduong-auduong,: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+lastname-la;: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+abc,: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+11/11/2000: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+11-11-2000: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+12-12-1000: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+02-29-2000: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+02-28-2001: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+02-29-2001: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+33-333-222: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+333*333^11: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+12-34-56: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+999: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+999: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+999: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+fair: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+999: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+abcdefghijk!!!123: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+ion: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+sealion: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+abcdeion: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+lions: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+ions: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+abion: Valid Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+-ion: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
+00ion: Failed Response
+
+User Input Test:
+a	Social Security Number
+b	US Phone number
+c	E-mail address
+d	Name on a class roster, assuming one or more middle initials - Last name, First name, MI
+e	Date in MM-DD-YYYY format
+f	House address - Street number, street name, abbreviation for road, street, boulevard or avenue
+g	City followed by state followed by zip as it should appear on a letter
+h	Military time, including seconds
+i	US Currency down to the penny (ex: $123,456,789.23)
+j	URL, including http:// (upper and lower case should be accepted)
+k	A password that contains at least 10 characters and includes at least one upper case character, lower case character, digit, punctuation mark, and does not have more than 3 consecutive lower case characters
+l	All words containing an odd number of alphabetic characters, ending in "ion"
+q	QUIT
+
