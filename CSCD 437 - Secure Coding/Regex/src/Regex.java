@@ -18,8 +18,8 @@ public class Regex {
       HashMap<String, ArrayList<String>> input = new HashMap<>();
       stateAbbrev = new HashSet<>();
       initializeState();
-      //initializeInputText(input);
-      //testFromFile(input);
+      initializeInputText(input);
+      testFromFile(input);
       promptUserInputs();
    }
 
@@ -72,9 +72,9 @@ public class Regex {
          input = new HashMap<>();
          System.out.println(prompt + "\n");
          try {
-            option = sc.next();
+            option = sc.nextLine();
             if (option.equals("q")) break;
-            response = sc.next();
+            response = sc.nextLine();
             input.put(option, new ArrayList<>());
             input.get(option).add(response);
             mapToTestCase(input, null);
